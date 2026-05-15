@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "graphify": {
+      "command": "graphify",
+      "args": [
+        "serve",
+        ".graphify/graph.json"
+      ],
+      "trust": false,
+      "description": "graphify knowledge graph MCP server"
+    }
+  }
+}

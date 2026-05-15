@@ -1,0 +1,12 @@
+assets/
+build/
+.dart_tool/
+.git/
+android/app/src/main/res/
+ios/Runner/Assets.xcassets/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.ico

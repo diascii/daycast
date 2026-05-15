@@ -1,0 +1,4307 @@
+{
+  "nodes": [
+    {
+      "id": "android_app_src_main_java_io_flutter_plugins_generatedpluginregistrant_java",
+      "label": "GeneratedPluginRegistrant.java",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L1"
+    },
+    {
+      "id": "plugins_generatedpluginregistrant_generatedpluginregistrant",
+      "label": "GeneratedPluginRegistrant",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L14"
+    },
+    {
+      "id": "plugins_generatedpluginregistrant_generatedpluginregistrant_registerwith",
+      "label": ".registerWith()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L17"
+    },
+    {
+      "id": "ios_flutter_ephemeral_flutter_lldb_helper_py",
+      "label": "flutter_lldb_helper.py",
+      "file_type": "code",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "ephemeral_flutter_lldb_helper_handle_new_rx_page",
+      "label": "handle_new_rx_page()",
+      "file_type": "code",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L7"
+    },
+    {
+      "id": "ephemeral_flutter_lldb_helper_lldb_init_module",
+      "label": "__lldb_init_module()",
+      "file_type": "code",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L24"
+    },
+    {
+      "id": "ephemeral_flutter_lldb_helper_rationale_8",
+      "label": "Intercept NOTIFY_DEBUGGER_ABOUT_RX_PAGES and touch the pages.",
+      "file_type": "rationale",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L8"
+    },
+    {
+      "id": "ios_runner_generatedpluginregistrant_h",
+      "label": "GeneratedPluginRegistrant.h",
+      "file_type": "code",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "ios_runner_generatedpluginregistrant_m",
+      "label": "GeneratedPluginRegistrant.m",
+      "file_type": "code",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L1"
+    },
+    {
+      "id": "runner_generatedpluginregistrant_generatedpluginregistrant",
+      "label": "GeneratedPluginRegistrant",
+      "file_type": "code",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L57"
+    },
+    {
+      "id": "runner_generatedpluginregistrant_generatedpluginregistrant_registerwithregistry",
+      "label": "-registerWithRegistry",
+      "file_type": "code",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L59"
+    },
+    {
+      "id": "ios_runner_runner_bridging_header_h",
+      "label": "Runner-Bridging-Header.h",
+      "file_type": "code",
+      "source_file": "ios/Runner/Runner-Bridging-Header.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_main_dart",
+      "label": "main.dart",
+      "file_type": "code",
+      "source_file": "lib/main.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_main_weatherplannerapp",
+      "label": "WeatherPlannerApp",
+      "file_type": "code",
+      "source_file": "lib/main.dart",
+      "source_location": "L15"
+    },
+    {
+      "id": "lib_main_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "lib/main.dart",
+      "source_location": "L6"
+    },
+    {
+      "id": "lib_models_note_model_dart",
+      "label": "note_model.dart",
+      "file_type": "code",
+      "source_file": "lib/models/note_model.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "models_note_model_daynote",
+      "label": "DayNote",
+      "file_type": "code",
+      "source_file": "lib/models/note_model.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "lib_models_weather_model_dart",
+      "label": "weather_model.dart",
+      "file_type": "code",
+      "source_file": "lib/models/weather_model.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "models_weather_model_hourlyweather",
+      "label": "HourlyWeather",
+      "file_type": "code",
+      "source_file": "lib/models/weather_model.dart",
+      "source_location": "L3"
+    },
+    {
+      "id": "models_weather_model_dayweather",
+      "label": "DayWeather",
+      "file_type": "code",
+      "source_file": "lib/models/weather_model.dart",
+      "source_location": "L34"
+    },
+    {
+      "id": "models_weather_model_currentweather",
+      "label": "CurrentWeather",
+      "file_type": "code",
+      "source_file": "lib/models/weather_model.dart",
+      "source_location": "L175"
+    },
+    {
+      "id": "models_weather_model_moonphase",
+      "label": "MoonPhase",
+      "file_type": "code",
+      "source_file": "lib/models/weather_model.dart",
+      "source_location": "L287"
+    },
+    {
+      "id": "lib_screens_calendar_screen_dart",
+      "label": "calendar_screen.dart",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "screens_calendar_screen_calendarscreen",
+      "label": "CalendarScreen",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L17"
+    },
+    {
+      "id": "screens_calendar_screen_calendarscreenstate",
+      "label": "_CalendarScreenState",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L25"
+    },
+    {
+      "id": "screens_calendar_screen_locationsearchsheet",
+      "label": "_LocationSearchSheet",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L918"
+    },
+    {
+      "id": "screens_calendar_screen_locationsearchsheetstate",
+      "label": "_LocationSearchSheetState",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L935"
+    },
+    {
+      "id": "screens_calendar_screen_initstate",
+      "label": "initState()",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L40"
+    },
+    {
+      "id": "screens_calendar_screen_dispose",
+      "label": "dispose()",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L46"
+    },
+    {
+      "id": "screens_calendar_screen_didchangeapplifecyclestate",
+      "label": "didChangeAppLifecycleState()",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L55"
+    },
+    {
+      "id": "screens_calendar_screen_ondayselected",
+      "label": "_onDaySelected()",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L61"
+    },
+    {
+      "id": "screens_calendar_screen_showsearchsheet",
+      "label": "_showSearchSheet()",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L806"
+    },
+    {
+      "id": "screens_calendar_screen_confirmremovelocation",
+      "label": "_confirmRemoveLocation()",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L829"
+    },
+    {
+      "id": "screens_calendar_screen_function",
+      "label": "Function()",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L921"
+    },
+    {
+      "id": "screens_calendar_screen_onsearch",
+      "label": "_onSearch()",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L943"
+    },
+    {
+      "id": "screens_calendar_screen_onselectresult",
+      "label": "_onSelectResult()",
+      "file_type": "code",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L956"
+    },
+    {
+      "id": "lib_screens_day_detail_screen_dart",
+      "label": "day_detail_screen.dart",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "screens_day_detail_screen_daydetailscreen",
+      "label": "DayDetailScreen",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L16"
+    },
+    {
+      "id": "screens_day_detail_screen_daydetailscreenstate",
+      "label": "_DayDetailScreenState",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L26"
+    },
+    {
+      "id": "screens_day_detail_screen_fullscreenimageviewer",
+      "label": "_FullscreenImageViewer",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L1179"
+    },
+    {
+      "id": "screens_day_detail_screen_initstate",
+      "label": "initState()",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L61"
+    },
+    {
+      "id": "screens_day_detail_screen_dispose",
+      "label": "dispose()",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L69"
+    },
+    {
+      "id": "screens_day_detail_screen_pickimage",
+      "label": "_pickImage()",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L76"
+    },
+    {
+      "id": "screens_day_detail_screen_showimagesourcesheet",
+      "label": "_showImageSourceSheet()",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L102"
+    },
+    {
+      "id": "screens_day_detail_screen_openfullscreen",
+      "label": "_openFullscreen()",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L186"
+    },
+    {
+      "id": "screens_day_detail_screen_savenote",
+      "label": "_saveNote()",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L198"
+    },
+    {
+      "id": "screens_day_detail_screen_deletenote",
+      "label": "_deleteNote()",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L244"
+    },
+    {
+      "id": "screens_day_detail_screen_deleteimagefile",
+      "label": "_deleteImageFile()",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L284"
+    },
+    {
+      "id": "screens_day_detail_screen_timeago",
+      "label": "_timeAgo()",
+      "file_type": "code",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L1168"
+    },
+    {
+      "id": "lib_screens_notes_screen_dart",
+      "label": "notes_screen.dart",
+      "file_type": "code",
+      "source_file": "lib/screens/notes_screen.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "screens_notes_screen_notesscreen",
+      "label": "NotesScreen",
+      "file_type": "code",
+      "source_file": "lib/screens/notes_screen.dart",
+      "source_location": "L13"
+    },
+    {
+      "id": "screens_notes_screen_notesscreenstate",
+      "label": "_NotesScreenState",
+      "file_type": "code",
+      "source_file": "lib/screens/notes_screen.dart",
+      "source_location": "L21"
+    },
+    {
+      "id": "screens_notes_screen_dispose",
+      "label": "dispose()",
+      "file_type": "code",
+      "source_file": "lib/screens/notes_screen.dart",
+      "source_location": "L68"
+    },
+    {
+      "id": "screens_notes_screen_timeago",
+      "label": "_timeAgo()",
+      "file_type": "code",
+      "source_file": "lib/screens/notes_screen.dart",
+      "source_location": "L486"
+    },
+    {
+      "id": "lib_screens_weather_map_screen_dart",
+      "label": "weather_map_screen.dart",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "screens_weather_map_screen_weathermapscreen",
+      "label": "WeatherMapScreen",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L9"
+    },
+    {
+      "id": "screens_weather_map_screen_weathermapscreenstate",
+      "label": "_WeatherMapScreenState",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L26"
+    },
+    {
+      "id": "screens_weather_map_screen_initstate",
+      "label": "initState()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L35"
+    },
+    {
+      "id": "screens_weather_map_screen_loadmappaths",
+      "label": "_loadMapPaths()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L40"
+    },
+    {
+      "id": "screens_weather_map_screen_movetocurrentlocation",
+      "label": "_moveToCurrentLocation()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L51"
+    },
+    {
+      "id": "screens_weather_map_screen_getnasaurl",
+      "label": "_getNASAUrl()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L58"
+    },
+    {
+      "id": "screens_weather_map_screen_getlayertitle",
+      "label": "_getLayerTitle()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L84"
+    },
+    {
+      "id": "screens_weather_map_screen_getlegendlow",
+      "label": "_getLegendLow()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L112"
+    },
+    {
+      "id": "screens_weather_map_screen_getlegendhigh",
+      "label": "_getLegendHigh()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L123"
+    },
+    {
+      "id": "lib_screens_weather_today_screen_dart",
+      "label": "weather_today_screen.dart",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "screens_weather_today_screen_weathertodayscreen",
+      "label": "WeatherTodayScreen",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen.dart",
+      "source_location": "L18"
+    },
+    {
+      "id": "screens_weather_today_screen_showfeelslikeinfo",
+      "label": "_showFeelsLikeInfo()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen.dart",
+      "source_location": "L218"
+    },
+    {
+      "id": "screens_weather_today_screen_showsharedialog",
+      "label": "_showShareDialog()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen.dart",
+      "source_location": "L382"
+    },
+    {
+      "id": "lib_screens_weather_today_screen_old_dart",
+      "label": "weather_today_screen_old.dart",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "screens_weather_today_screen_old_particle",
+      "label": "_Particle",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L30"
+    },
+    {
+      "id": "screens_weather_today_screen_old_weatherparticlespainter",
+      "label": "_WeatherParticlesPainter",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L39"
+    },
+    {
+      "id": "screens_weather_today_screen_old_weatherparticles",
+      "label": "_WeatherParticles",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L162"
+    },
+    {
+      "id": "screens_weather_today_screen_old_weatherparticlesstate",
+      "label": "_WeatherParticlesState",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L171"
+    },
+    {
+      "id": "screens_weather_today_screen_old_lightbackground",
+      "label": "_LightBackground",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L355"
+    },
+    {
+      "id": "screens_weather_today_screen_old_lightbackgroundstate",
+      "label": "_LightBackgroundState",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L370"
+    },
+    {
+      "id": "screens_weather_today_screen_old_weathertodayscreen",
+      "label": "WeatherTodayScreen",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L478"
+    },
+    {
+      "id": "screens_weather_today_screen_old_paint",
+      "label": "paint()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L52"
+    },
+    {
+      "id": "screens_weather_today_screen_old_drawblob",
+      "label": "drawBlob()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L145"
+    },
+    {
+      "id": "screens_weather_today_screen_old_shouldrepaint",
+      "label": "shouldRepaint()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L159"
+    },
+    {
+      "id": "screens_weather_today_screen_old_initstate",
+      "label": "initState()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L181"
+    },
+    {
+      "id": "screens_weather_today_screen_old_didupdatewidget",
+      "label": "didUpdateWidget()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L196"
+    },
+    {
+      "id": "screens_weather_today_screen_old_tick",
+      "label": "_tick()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L277"
+    },
+    {
+      "id": "screens_weather_today_screen_old_scheduleflash",
+      "label": "_scheduleFlash()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L308"
+    },
+    {
+      "id": "screens_weather_today_screen_old_doflash",
+      "label": "_doFlash()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L321"
+    },
+    {
+      "id": "screens_weather_today_screen_old_dispose",
+      "label": "dispose()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L329"
+    },
+    {
+      "id": "screens_weather_today_screen_old_showfeelslikeinfo",
+      "label": "_showFeelsLikeInfo()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L735"
+    },
+    {
+      "id": "screens_weather_today_screen_old_showsharedialog",
+      "label": "_showShareDialog()",
+      "file_type": "code",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L1165"
+    },
+    {
+      "id": "lib_services_app_state_dart",
+      "label": "app_state.dart",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_app_state_locationslot",
+      "label": "LocationSlot",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L14"
+    },
+    {
+      "id": "services_app_state_appstate",
+      "label": "AppState",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L64"
+    },
+    {
+      "id": "services_app_state_datekey",
+      "label": "_dateKey()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L58"
+    },
+    {
+      "id": "services_app_state_updatewidget",
+      "label": "updateWidget()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L75"
+    },
+    {
+      "id": "services_app_state_toggletheme",
+      "label": "toggleTheme()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L118"
+    },
+    {
+      "id": "services_app_state_toggletempunit",
+      "label": "toggleTempUnit()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L128"
+    },
+    {
+      "id": "services_app_state_init",
+      "label": "init()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L140"
+    },
+    {
+      "id": "services_app_state_dispose",
+      "label": "dispose()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L192"
+    },
+    {
+      "id": "services_app_state_switchtolocation",
+      "label": "switchToLocation()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L200"
+    },
+    {
+      "id": "services_app_state_addlocation",
+      "label": "addLocation()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L208"
+    },
+    {
+      "id": "services_app_state_removelocation",
+      "label": "removeLocation()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L236"
+    },
+    {
+      "id": "services_app_state_fetchweatherforslot",
+      "label": "_fetchWeatherForSlot()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L249"
+    },
+    {
+      "id": "services_app_state_refreshweather",
+      "label": "refreshWeather()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L283"
+    },
+    {
+      "id": "services_app_state_refreshallweather",
+      "label": "refreshAllWeather()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L287"
+    },
+    {
+      "id": "services_app_state_refreshifstale",
+      "label": "refreshIfStale()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L305"
+    },
+    {
+      "id": "services_app_state_detectlocation",
+      "label": "_detectLocation()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L313"
+    },
+    {
+      "id": "services_app_state_setdefaultcity",
+      "label": "_setDefaultCity()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L347"
+    },
+    {
+      "id": "services_app_state_setprimarylocation",
+      "label": "setPrimaryLocation()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L351"
+    },
+    {
+      "id": "services_app_state_setlocation",
+      "label": "setLocation()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L373"
+    },
+    {
+      "id": "services_app_state_schedulemidnightrefresh",
+      "label": "_scheduleMidnightRefresh()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L380"
+    },
+    {
+      "id": "services_app_state_savenote",
+      "label": "saveNote()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L399"
+    },
+    {
+      "id": "services_app_state_deletenote",
+      "label": "deleteNote()",
+      "file_type": "code",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L411"
+    },
+    {
+      "id": "lib_services_note_service_dart",
+      "label": "note_service.dart",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_note_service_noteservice",
+      "label": "NoteService",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L5"
+    },
+    {
+      "id": "services_note_service_savenote",
+      "label": "saveNote()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L23"
+    },
+    {
+      "id": "services_note_service_deletenote",
+      "label": "deleteNote()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L29"
+    },
+    {
+      "id": "services_note_service_getnotefordate",
+      "label": "getNoteForDate()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L35"
+    },
+    {
+      "id": "services_note_service_persist",
+      "label": "_persist()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L40"
+    },
+    {
+      "id": "services_note_service_datekey",
+      "label": "_dateKey()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L46"
+    },
+    {
+      "id": "services_note_service_savelocation",
+      "label": "saveLocation()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L51"
+    },
+    {
+      "id": "services_note_service_addsavedlocation",
+      "label": "addSavedLocation()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L73"
+    },
+    {
+      "id": "services_note_service_removesavedlocation",
+      "label": "removeSavedLocation()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L82"
+    },
+    {
+      "id": "services_note_service_savetheme",
+      "label": "saveTheme()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L91"
+    },
+    {
+      "id": "services_note_service_loadtheme",
+      "label": "loadTheme()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L97"
+    },
+    {
+      "id": "services_note_service_savetempunit",
+      "label": "saveTempUnit()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L104"
+    },
+    {
+      "id": "services_note_service_loadtempunit",
+      "label": "loadTempUnit()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L110"
+    },
+    {
+      "id": "services_note_service_marknotified",
+      "label": "markNotified()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L123"
+    },
+    {
+      "id": "services_note_service_pruneoldnotified",
+      "label": "pruneOldNotified()",
+      "file_type": "code",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L133"
+    },
+    {
+      "id": "lib_services_notification_service_dart",
+      "label": "notification_service.dart",
+      "file_type": "code",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_notification_service_notificationservice",
+      "label": "NotificationService",
+      "file_type": "code",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L7"
+    },
+    {
+      "id": "services_notification_service_init",
+      "label": "init()",
+      "file_type": "code",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L16"
+    },
+    {
+      "id": "services_notification_service_requestpermissions",
+      "label": "requestPermissions()",
+      "file_type": "code",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L35"
+    },
+    {
+      "id": "services_notification_service_showweatheralert",
+      "label": "showWeatherAlert()",
+      "file_type": "code",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L47"
+    },
+    {
+      "id": "services_notification_service_checkandnotify",
+      "label": "checkAndNotify()",
+      "file_type": "code",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L72"
+    },
+    {
+      "id": "services_notification_service_scheduledailycheck",
+      "label": "scheduleDailyCheck()",
+      "file_type": "code",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L117"
+    },
+    {
+      "id": "lib_services_weather_service_dart",
+      "label": "weather_service.dart",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "services_weather_service_tempunit",
+      "label": "TempUnit",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L8"
+    },
+    {
+      "id": "services_weather_service_weatherservice",
+      "label": "WeatherService",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L21"
+    },
+    {
+      "id": "services_weather_service_airqualityresult",
+      "label": "_AirQualityResult",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L493"
+    },
+    {
+      "id": "services_weather_service_convert",
+      "label": "convert()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L9"
+    },
+    {
+      "id": "services_weather_service_format",
+      "label": "format()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L13"
+    },
+    {
+      "id": "services_weather_service_symbol",
+      "label": "symbol()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L18"
+    },
+    {
+      "id": "services_weather_service_asdouble",
+      "label": "_asDouble()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L28"
+    },
+    {
+      "id": "services_weather_service_asint",
+      "label": "_asInt()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L32"
+    },
+    {
+      "id": "services_weather_service_listvalue",
+      "label": "_listValue()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L36"
+    },
+    {
+      "id": "services_weather_service_fetchairquality",
+      "label": "_fetchAirQuality()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L232"
+    },
+    {
+      "id": "services_weather_service_fetchradarandsatellitepaths",
+      "label": "fetchRadarAndSatellitePaths()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L371"
+    },
+    {
+      "id": "services_weather_service_fetchradarpath",
+      "label": "fetchRadarPath()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L411"
+    },
+    {
+      "id": "services_weather_service_buildnotificationmessage",
+      "label": "buildNotificationMessage()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L417"
+    },
+    {
+      "id": "services_weather_service_haskeyword",
+      "label": "_hasKeyword()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L470"
+    },
+    {
+      "id": "services_weather_service_formatdate",
+      "label": "_formatDate()",
+      "file_type": "code",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L474"
+    },
+    {
+      "id": "lib_theme_app_theme_dart",
+      "label": "app_theme.dart",
+      "file_type": "code",
+      "source_file": "lib/theme/app_theme.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "theme_app_theme_appcolors",
+      "label": "AppColors",
+      "file_type": "code",
+      "source_file": "lib/theme/app_theme.dart",
+      "source_location": "L3"
+    },
+    {
+      "id": "lib_widgets_search_sheet_dart",
+      "label": "search_sheet.dart",
+      "file_type": "code",
+      "source_file": "lib/widgets/search_sheet.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "widgets_search_sheet_searchsheet",
+      "label": "SearchSheet",
+      "file_type": "code",
+      "source_file": "lib/widgets/search_sheet.dart",
+      "source_location": "L7"
+    },
+    {
+      "id": "widgets_search_sheet_searchsheetstate",
+      "label": "_SearchSheetState",
+      "file_type": "code",
+      "source_file": "lib/widgets/search_sheet.dart",
+      "source_location": "L15"
+    },
+    {
+      "id": "widgets_search_sheet_onsearch",
+      "label": "_onSearch()",
+      "file_type": "code",
+      "source_file": "lib/widgets/search_sheet.dart",
+      "source_location": "L21"
+    },
+    {
+      "id": "lib_widgets_weather_share_card_dart",
+      "label": "weather_share_card.dart",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_share_card.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "widgets_weather_share_card_weathersharecard",
+      "label": "WeatherShareCard",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_share_card.dart",
+      "source_location": "L14"
+    },
+    {
+      "id": "widgets_weather_share_card_shareutils",
+      "label": "ShareUtils",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_share_card.dart",
+      "source_location": "L217"
+    },
+    {
+      "id": "widgets_weather_share_card_captureandshare",
+      "label": "captureAndShare()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_share_card.dart",
+      "source_location": "L218"
+    },
+    {
+      "id": "lib_widgets_weather_today_forecast_strips_dart",
+      "label": "forecast_strips.dart",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/forecast_strips.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "weather_today_forecast_strips_hourlyforecaststrip",
+      "label": "HourlyForecastStrip",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/forecast_strips.dart",
+      "source_location": "L10"
+    },
+    {
+      "id": "weather_today_forecast_strips_weeklyforecaststrip",
+      "label": "WeeklyForecastStrip",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/forecast_strips.dart",
+      "source_location": "L100"
+    },
+    {
+      "id": "lib_widgets_weather_today_moon_phase_tile_dart",
+      "label": "moon_phase_tile.dart",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/moon_phase_tile.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "weather_today_moon_phase_tile_moonphasetile",
+      "label": "MoonPhaseTile",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/moon_phase_tile.dart",
+      "source_location": "L6"
+    },
+    {
+      "id": "lib_widgets_weather_today_weather_animated_background_dart",
+      "label": "weather_animated_background.dart",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_animated_background.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "weather_today_weather_animated_background_weatheranimatedbackground",
+      "label": "WeatherAnimatedBackground",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_animated_background.dart",
+      "source_location": "L9"
+    },
+    {
+      "id": "weather_today_weather_animated_background_weatheranimatedbackgroundstate",
+      "label": "_WeatherAnimatedBackgroundState",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_animated_background.dart",
+      "source_location": "L25"
+    },
+    {
+      "id": "weather_today_weather_animated_background_initstate",
+      "label": "initState()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_animated_background.dart",
+      "source_location": "L31"
+    },
+    {
+      "id": "weather_today_weather_animated_background_didupdatewidget",
+      "label": "didUpdateWidget()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_animated_background.dart",
+      "source_location": "L49"
+    },
+    {
+      "id": "weather_today_weather_animated_background_dispose",
+      "label": "dispose()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_animated_background.dart",
+      "source_location": "L58"
+    },
+    {
+      "id": "lib_widgets_weather_today_weather_particles_dart",
+      "label": "weather_particles.dart",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "weather_today_weather_particles_particle",
+      "label": "_Particle",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L30"
+    },
+    {
+      "id": "weather_today_weather_particles_weatherparticlespainter",
+      "label": "_WeatherParticlesPainter",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L39"
+    },
+    {
+      "id": "weather_today_weather_particles_weatherparticles",
+      "label": "WeatherParticles",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L162"
+    },
+    {
+      "id": "weather_today_weather_particles_weatherparticlesstate",
+      "label": "_WeatherParticlesState",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L171"
+    },
+    {
+      "id": "weather_today_weather_particles_paint",
+      "label": "paint()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L52"
+    },
+    {
+      "id": "weather_today_weather_particles_drawblob",
+      "label": "drawBlob()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L145"
+    },
+    {
+      "id": "weather_today_weather_particles_shouldrepaint",
+      "label": "shouldRepaint()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L159"
+    },
+    {
+      "id": "weather_today_weather_particles_initstate",
+      "label": "initState()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L181"
+    },
+    {
+      "id": "weather_today_weather_particles_didupdatewidget",
+      "label": "didUpdateWidget()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L196"
+    },
+    {
+      "id": "weather_today_weather_particles_tick",
+      "label": "_tick()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L277"
+    },
+    {
+      "id": "weather_today_weather_particles_scheduleflash",
+      "label": "_scheduleFlash()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L318"
+    },
+    {
+      "id": "weather_today_weather_particles_doflash",
+      "label": "_doFlash()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L331"
+    },
+    {
+      "id": "weather_today_weather_particles_dispose",
+      "label": "dispose()",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L339"
+    },
+    {
+      "id": "lib_widgets_weather_today_weather_stat_tiles_dart",
+      "label": "weather_stat_tiles.dart",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_stat_tiles.dart",
+      "source_location": "L1"
+    },
+    {
+      "id": "weather_today_weather_stat_tiles_weatherstattile",
+      "label": "WeatherStatTile",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_stat_tiles.dart",
+      "source_location": "L6"
+    },
+    {
+      "id": "weather_today_weather_stat_tiles_pressuretile",
+      "label": "PressureTile",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_stat_tiles.dart",
+      "source_location": "L48"
+    },
+    {
+      "id": "weather_today_weather_stat_tiles_aqitile",
+      "label": "AqiTile",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_stat_tiles.dart",
+      "source_location": "L114"
+    },
+    {
+      "id": "weather_today_weather_stat_tiles_pollentile",
+      "label": "PollenTile",
+      "file_type": "code",
+      "source_file": "lib/widgets/weather_today/weather_stat_tiles.dart",
+      "source_location": "L168"
+    },
+    {
+      "id": "linux_flutter_generated_plugin_registrant_cc",
+      "label": "generated_plugin_registrant.cc",
+      "file_type": "code",
+      "source_file": "linux/flutter/generated_plugin_registrant.cc",
+      "source_location": "L1"
+    },
+    {
+      "id": "flutter_generated_plugin_registrant_fl_register_plugins",
+      "label": "fl_register_plugins()",
+      "file_type": "code",
+      "source_file": "linux/flutter/generated_plugin_registrant.cc",
+      "source_location": "L12"
+    },
+    {
+      "id": "linux_flutter_generated_plugin_registrant_h",
+      "label": "generated_plugin_registrant.h",
+      "file_type": "code",
+      "source_file": "linux/flutter/generated_plugin_registrant.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "linux_runner_main_cc",
+      "label": "main.cc",
+      "file_type": "code",
+      "source_file": "linux/runner/main.cc",
+      "source_location": "L1"
+    },
+    {
+      "id": "runner_main_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "linux/runner/main.cc",
+      "source_location": "L3"
+    },
+    {
+      "id": "linux_runner_my_application_cc",
+      "label": "my_application.cc",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L1"
+    },
+    {
+      "id": "runner_my_application_first_frame_cb",
+      "label": "first_frame_cb()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L18"
+    },
+    {
+      "id": "runner_my_application_my_application_activate",
+      "label": "my_application_activate()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L23"
+    },
+    {
+      "id": "runner_my_application_my_application_local_command_line",
+      "label": "my_application_local_command_line()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L82"
+    },
+    {
+      "id": "runner_my_application_my_application_startup",
+      "label": "my_application_startup()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L103"
+    },
+    {
+      "id": "runner_my_application_my_application_shutdown",
+      "label": "my_application_shutdown()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L112"
+    },
+    {
+      "id": "runner_my_application_my_application_dispose",
+      "label": "my_application_dispose()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L121"
+    },
+    {
+      "id": "runner_my_application_my_application_class_init",
+      "label": "my_application_class_init()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L127"
+    },
+    {
+      "id": "runner_my_application_my_application_init",
+      "label": "my_application_init()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L136"
+    },
+    {
+      "id": "runner_my_application_my_application_new",
+      "label": "my_application_new()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L138"
+    },
+    {
+      "id": "linux_runner_my_application_h",
+      "label": "my_application.h",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "windows_flutter_generated_plugin_registrant_cc",
+      "label": "generated_plugin_registrant.cc",
+      "file_type": "code",
+      "source_file": "windows/flutter/generated_plugin_registrant.cc",
+      "source_location": "L1"
+    },
+    {
+      "id": "flutter_generated_plugin_registrant_registerplugins",
+      "label": "RegisterPlugins()",
+      "file_type": "code",
+      "source_file": "windows/flutter/generated_plugin_registrant.cc",
+      "source_location": "L15"
+    },
+    {
+      "id": "windows_flutter_generated_plugin_registrant_h",
+      "label": "generated_plugin_registrant.h",
+      "file_type": "code",
+      "source_file": "windows/flutter/generated_plugin_registrant.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "windows_runner_flutter_window_cpp",
+      "label": "flutter_window.cpp",
+      "file_type": "code",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "runner_flutter_window_flutterwindow",
+      "label": "FlutterWindow()",
+      "file_type": "code",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L7"
+    },
+    {
+      "id": "runner_flutter_window_oncreate",
+      "label": "OnCreate()",
+      "file_type": "code",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L12"
+    },
+    {
+      "id": "runner_flutter_window_ondestroy",
+      "label": "OnDestroy()",
+      "file_type": "code",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L42"
+    },
+    {
+      "id": "runner_flutter_window_messagehandler",
+      "label": "MessageHandler()",
+      "file_type": "code",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L50"
+    },
+    {
+      "id": "windows_runner_flutter_window_h",
+      "label": "flutter_window.h",
+      "file_type": "code",
+      "source_file": "windows/runner/flutter_window.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "runner_flutter_window_flutterwindow",
+      "label": "FlutterWindow()",
+      "file_type": "code",
+      "source_file": "windows/runner/flutter_window.h",
+      "source_location": "L12"
+    },
+    {
+      "id": "windows_runner_main_cpp",
+      "label": "main.cpp",
+      "file_type": "code",
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "runner_main_wwinmain",
+      "label": "wWinMain()",
+      "file_type": "code",
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L8"
+    },
+    {
+      "id": "windows_runner_resource_h",
+      "label": "resource.h",
+      "file_type": "code",
+      "source_file": "windows/runner/resource.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "windows_runner_utils_cpp",
+      "label": "utils.cpp",
+      "file_type": "code",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "runner_utils_createandattachconsole",
+      "label": "CreateAndAttachConsole()",
+      "file_type": "code",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L10"
+    },
+    {
+      "id": "runner_utils_getcommandlinearguments",
+      "label": "GetCommandLineArguments()",
+      "file_type": "code",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L24"
+    },
+    {
+      "id": "runner_utils_utf8fromutf16",
+      "label": "Utf8FromUtf16()",
+      "file_type": "code",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L44"
+    },
+    {
+      "id": "windows_runner_utils_h",
+      "label": "utils.h",
+      "file_type": "code",
+      "source_file": "windows/runner/utils.h",
+      "source_location": "L1"
+    },
+    {
+      "id": "windows_runner_win32_window_cpp",
+      "label": "win32_window.cpp",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L1"
+    },
+    {
+      "id": "runner_win32_window_scale",
+      "label": "Scale()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L36"
+    },
+    {
+      "id": "runner_win32_window_enablefulldpisupportifavailable",
+      "label": "EnableFullDpiSupportIfAvailable()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L42"
+    },
+    {
+      "id": "runner_win32_window_windowclassregistrar",
+      "label": "WindowClassRegistrar",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L59"
+    },
+    {
+      "id": "runner_win32_window_windowclassregistrar_windowclassregistrar",
+      "label": ".WindowClassRegistrar()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L61"
+    },
+    {
+      "id": "runner_win32_window_getwindowclass",
+      "label": "GetWindowClass()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L89"
+    },
+    {
+      "id": "runner_win32_window_unregisterwindowclass",
+      "label": "UnregisterWindowClass()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L109"
+    },
+    {
+      "id": "runner_win32_window_win32window",
+      "label": "Win32Window()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L114"
+    },
+    {
+      "id": "runner_win32_window_create",
+      "label": "Create()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L123"
+    },
+    {
+      "id": "runner_win32_window_show",
+      "label": "Show()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L152"
+    },
+    {
+      "id": "runner_win32_window_win32window_wndproc",
+      "label": "Win32Window::WndProc()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L157"
+    },
+    {
+      "id": "runner_win32_window_messagehandler",
+      "label": "MessageHandler()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L176"
+    },
+    {
+      "id": "runner_win32_window_destroy",
+      "label": "Destroy()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L224"
+    },
+    {
+      "id": "runner_win32_window_getthisfromhandle",
+      "label": "GetThisFromHandle()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L236"
+    },
+    {
+      "id": "runner_win32_window_setchildcontent",
+      "label": "SetChildContent()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L241"
+    },
+    {
+      "id": "runner_win32_window_getclientarea",
+      "label": "GetClientArea()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L252"
+    },
+    {
+      "id": "runner_win32_window_gethandle",
+      "label": "GetHandle()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L258"
+    },
+    {
+      "id": "runner_win32_window_setquitonclose",
+      "label": "SetQuitOnClose()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L262"
+    },
+    {
+      "id": "runner_win32_window_oncreate",
+      "label": "OnCreate()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L266"
+    },
+    {
+      "id": "runner_win32_window_ondestroy",
+      "label": "OnDestroy()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L271"
+    },
+    {
+      "id": "runner_win32_window_updatetheme",
+      "label": "UpdateTheme()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L275"
+    },
+    {
+      "id": "windows_runner_win32_window_h",
+      "label": "win32_window.h",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.h",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "android_app_src_main_java_io_flutter_plugins_generatedpluginregistrant_java",
+      "target": "keep",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "android_app_src_main_java_io_flutter_plugins_generatedpluginregistrant_java",
+      "target": "nonnull",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "android_app_src_main_java_io_flutter_plugins_generatedpluginregistrant_java",
+      "target": "log",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "android_app_src_main_java_io_flutter_plugins_generatedpluginregistrant_java",
+      "target": "flutterengine",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "android_app_src_main_java_io_flutter_plugins_generatedpluginregistrant_java",
+      "target": "plugins_generatedpluginregistrant_generatedpluginregistrant",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L14",
+      "weight": 1
+    },
+    {
+      "source": "plugins_generatedpluginregistrant_generatedpluginregistrant",
+      "target": "plugins_generatedpluginregistrant_generatedpluginregistrant_registerwith",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L17",
+      "weight": 1
+    },
+    {
+      "source": "ios_flutter_ephemeral_flutter_lldb_helper_py",
+      "target": "lldb",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "ios_flutter_ephemeral_flutter_lldb_helper_py",
+      "target": "ephemeral_flutter_lldb_helper_handle_new_rx_page",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "ios_flutter_ephemeral_flutter_lldb_helper_py",
+      "target": "ephemeral_flutter_lldb_helper_lldb_init_module",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L24",
+      "weight": 1
+    },
+    {
+      "source": "ephemeral_flutter_lldb_helper_rationale_8",
+      "target": "ephemeral_flutter_lldb_helper_handle_new_rx_page",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "ios_runner_generatedpluginregistrant_m",
+      "target": "generatedpluginregistrant",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "ios_runner_generatedpluginregistrant_m",
+      "target": "flutterlocalnotificationsplugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "ios_runner_generatedpluginregistrant_m",
+      "target": "geocodingplugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L16",
+      "weight": 1
+    },
+    {
+      "source": "ios_runner_generatedpluginregistrant_m",
+      "target": "geolocatorplugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L22",
+      "weight": 1
+    },
+    {
+      "source": "ios_runner_generatedpluginregistrant_m",
+      "target": "homewidgetplugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L28",
+      "weight": 1
+    },
+    {
+      "source": "ios_runner_generatedpluginregistrant_m",
+      "target": "fltimagepickerplugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L34",
+      "weight": 1
+    },
+    {
+      "source": "ios_runner_generatedpluginregistrant_m",
+      "target": "permissionhandlerplugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L40",
+      "weight": 1
+    },
+    {
+      "source": "ios_runner_generatedpluginregistrant_m",
+      "target": "fppshareplusplugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L46",
+      "weight": 1
+    },
+    {
+      "source": "ios_runner_generatedpluginregistrant_m",
+      "target": "sharedpreferencesplugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L52",
+      "weight": 1
+    },
+    {
+      "source": "ios_runner_generatedpluginregistrant_m",
+      "target": "runner_generatedpluginregistrant_generatedpluginregistrant",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L57",
+      "weight": 1
+    },
+    {
+      "source": "runner_generatedpluginregistrant_generatedpluginregistrant",
+      "target": "runner_generatedpluginregistrant_generatedpluginregistrant_registerwithregistry",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L59",
+      "weight": 1
+    },
+    {
+      "source": "lib_main_dart",
+      "target": "lib_main_weatherplannerapp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/main.dart",
+      "source_location": "L15",
+      "weight": 1
+    },
+    {
+      "source": "lib_main_dart",
+      "target": "lib_main_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/main.dart",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "lib_models_note_model_dart",
+      "target": "models_note_model_daynote",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/models/note_model.dart",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "lib_models_weather_model_dart",
+      "target": "models_weather_model_hourlyweather",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/models/weather_model.dart",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "lib_models_weather_model_dart",
+      "target": "models_weather_model_dayweather",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/models/weather_model.dart",
+      "source_location": "L34",
+      "weight": 1
+    },
+    {
+      "source": "lib_models_weather_model_dart",
+      "target": "models_weather_model_currentweather",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/models/weather_model.dart",
+      "source_location": "L175",
+      "weight": 1
+    },
+    {
+      "source": "lib_models_weather_model_dart",
+      "target": "models_weather_model_moonphase",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/models/weather_model.dart",
+      "source_location": "L287",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_calendarscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L17",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_calendarscreenstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L25",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_locationsearchsheet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L918",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_locationsearchsheetstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L935",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_initstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L40",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L46",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_didchangeapplifecyclestate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L55",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_ondayselected",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L61",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_showsearchsheet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L806",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_confirmremovelocation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L829",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_function",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L921",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_function",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L922",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_onsearch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L943",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_calendar_screen_dart",
+      "target": "screens_calendar_screen_onselectresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/calendar_screen.dart",
+      "source_location": "L956",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_daydetailscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L16",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_daydetailscreenstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L26",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_fullscreenimageviewer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L1179",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_initstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L61",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L69",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_pickimage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L76",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_showimagesourcesheet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L102",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_openfullscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L186",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_savenote",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L198",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_deletenote",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L244",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_deleteimagefile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L284",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_day_detail_screen_dart",
+      "target": "screens_day_detail_screen_timeago",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/day_detail_screen.dart",
+      "source_location": "L1168",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_notes_screen_dart",
+      "target": "screens_notes_screen_notesscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/notes_screen.dart",
+      "source_location": "L13",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_notes_screen_dart",
+      "target": "screens_notes_screen_notesscreenstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/notes_screen.dart",
+      "source_location": "L21",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_notes_screen_dart",
+      "target": "screens_notes_screen_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/notes_screen.dart",
+      "source_location": "L68",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_notes_screen_dart",
+      "target": "screens_notes_screen_timeago",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/notes_screen.dart",
+      "source_location": "L486",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_map_screen_dart",
+      "target": "screens_weather_map_screen_weathermapscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_map_screen_dart",
+      "target": "screens_weather_map_screen_weathermapscreenstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L26",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_map_screen_dart",
+      "target": "screens_weather_map_screen_initstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L35",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_map_screen_dart",
+      "target": "screens_weather_map_screen_loadmappaths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L40",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_map_screen_dart",
+      "target": "screens_weather_map_screen_movetocurrentlocation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L51",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_map_screen_dart",
+      "target": "screens_weather_map_screen_getnasaurl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L58",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_map_screen_dart",
+      "target": "screens_weather_map_screen_getlayertitle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L84",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_map_screen_dart",
+      "target": "screens_weather_map_screen_getlegendlow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L112",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_map_screen_dart",
+      "target": "screens_weather_map_screen_getlegendhigh",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_map_screen.dart",
+      "source_location": "L123",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_dart",
+      "target": "screens_weather_today_screen_weathertodayscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen.dart",
+      "source_location": "L18",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_dart",
+      "target": "screens_weather_today_screen_showfeelslikeinfo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen.dart",
+      "source_location": "L218",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_dart",
+      "target": "screens_weather_today_screen_showsharedialog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen.dart",
+      "source_location": "L382",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_particle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L30",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_weatherparticlespainter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L39",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_weatherparticles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L162",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_weatherparticlesstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L171",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_lightbackground",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L355",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_lightbackgroundstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L370",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_weathertodayscreen",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L478",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_paint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L52",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_drawblob",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L145",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_shouldrepaint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L159",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_initstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L181",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_didupdatewidget",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L196",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_tick",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L277",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_scheduleflash",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L308",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_doflash",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L321",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L329",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_initstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L376",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_didupdatewidget",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L394",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L403",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_showfeelslikeinfo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L735",
+      "weight": 1
+    },
+    {
+      "source": "lib_screens_weather_today_screen_old_dart",
+      "target": "screens_weather_today_screen_old_showsharedialog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/screens/weather_today_screen_old.dart",
+      "source_location": "L1165",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_locationslot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L14",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_appstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L64",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_datekey",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L58",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_updatewidget",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L75",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_toggletheme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L118",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_toggletempunit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L128",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_init",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L140",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L192",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_switchtolocation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L200",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_addlocation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L208",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_removelocation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L236",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_fetchweatherforslot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L249",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_refreshweather",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L283",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_refreshallweather",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L287",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_refreshifstale",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L305",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_detectlocation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L313",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_setdefaultcity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L347",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_setprimarylocation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L351",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_setlocation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L373",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_schedulemidnightrefresh",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L380",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_savenote",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L399",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_deletenote",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L411",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_app_state_dart",
+      "target": "services_app_state_datekey",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/app_state.dart",
+      "source_location": "L436",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_noteservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_savenote",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L23",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_deletenote",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L29",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_getnotefordate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L35",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_persist",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L40",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_datekey",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L46",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_savelocation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L51",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_addsavedlocation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L73",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_removesavedlocation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L82",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_savetheme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L91",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_loadtheme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L97",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_savetempunit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L104",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_loadtempunit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L110",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_marknotified",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L123",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_note_service_dart",
+      "target": "services_note_service_pruneoldnotified",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/note_service.dart",
+      "source_location": "L133",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_notification_service_dart",
+      "target": "services_notification_service_notificationservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_notification_service_dart",
+      "target": "services_notification_service_init",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L16",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_notification_service_dart",
+      "target": "services_notification_service_requestpermissions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L35",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_notification_service_dart",
+      "target": "services_notification_service_showweatheralert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L47",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_notification_service_dart",
+      "target": "services_notification_service_checkandnotify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L72",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_notification_service_dart",
+      "target": "services_notification_service_scheduledailycheck",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/notification_service.dart",
+      "source_location": "L117",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_tempunit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_weatherservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L21",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_airqualityresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L493",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_convert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_format",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L13",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_symbol",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L18",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_asdouble",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L28",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_asint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L32",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_listvalue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L36",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_fetchairquality",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L232",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_fetchradarandsatellitepaths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L371",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_fetchradarpath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L411",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_buildnotificationmessage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L417",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_haskeyword",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L470",
+      "weight": 1
+    },
+    {
+      "source": "lib_services_weather_service_dart",
+      "target": "services_weather_service_formatdate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/services/weather_service.dart",
+      "source_location": "L474",
+      "weight": 1
+    },
+    {
+      "source": "lib_theme_app_theme_dart",
+      "target": "theme_app_theme_appcolors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/theme/app_theme.dart",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_search_sheet_dart",
+      "target": "widgets_search_sheet_searchsheet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/search_sheet.dart",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_search_sheet_dart",
+      "target": "widgets_search_sheet_searchsheetstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/search_sheet.dart",
+      "source_location": "L15",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_search_sheet_dart",
+      "target": "widgets_search_sheet_onsearch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/search_sheet.dart",
+      "source_location": "L21",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_share_card_dart",
+      "target": "widgets_weather_share_card_weathersharecard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_share_card.dart",
+      "source_location": "L14",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_share_card_dart",
+      "target": "widgets_weather_share_card_shareutils",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_share_card.dart",
+      "source_location": "L217",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_share_card_dart",
+      "target": "widgets_weather_share_card_captureandshare",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_share_card.dart",
+      "source_location": "L218",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_forecast_strips_dart",
+      "target": "weather_today_forecast_strips_hourlyforecaststrip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/forecast_strips.dart",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_forecast_strips_dart",
+      "target": "weather_today_forecast_strips_weeklyforecaststrip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/forecast_strips.dart",
+      "source_location": "L100",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_moon_phase_tile_dart",
+      "target": "weather_today_moon_phase_tile_moonphasetile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/moon_phase_tile.dart",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_animated_background_dart",
+      "target": "weather_today_weather_animated_background_weatheranimatedbackground",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_animated_background.dart",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_animated_background_dart",
+      "target": "weather_today_weather_animated_background_weatheranimatedbackgroundstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_animated_background.dart",
+      "source_location": "L25",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_animated_background_dart",
+      "target": "weather_today_weather_animated_background_initstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_animated_background.dart",
+      "source_location": "L31",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_animated_background_dart",
+      "target": "weather_today_weather_animated_background_didupdatewidget",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_animated_background.dart",
+      "source_location": "L49",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_animated_background_dart",
+      "target": "weather_today_weather_animated_background_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_animated_background.dart",
+      "source_location": "L58",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_particle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L30",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_weatherparticlespainter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L39",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_weatherparticles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L162",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_weatherparticlesstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L171",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_paint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L52",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_drawblob",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L145",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_shouldrepaint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L159",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_initstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L181",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_didupdatewidget",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L196",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_tick",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L277",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_scheduleflash",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L318",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_doflash",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L331",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_particles_dart",
+      "target": "weather_today_weather_particles_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_particles.dart",
+      "source_location": "L339",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_stat_tiles_dart",
+      "target": "weather_today_weather_stat_tiles_weatherstattile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_stat_tiles.dart",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_stat_tiles_dart",
+      "target": "weather_today_weather_stat_tiles_pressuretile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_stat_tiles.dart",
+      "source_location": "L48",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_stat_tiles_dart",
+      "target": "weather_today_weather_stat_tiles_aqitile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_stat_tiles.dart",
+      "source_location": "L114",
+      "weight": 1
+    },
+    {
+      "source": "lib_widgets_weather_today_weather_stat_tiles_dart",
+      "target": "weather_today_weather_stat_tiles_pollentile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/widgets/weather_today/weather_stat_tiles.dart",
+      "source_location": "L168",
+      "weight": 1
+    },
+    {
+      "source": "linux_flutter_generated_plugin_registrant_cc",
+      "target": "generated_plugin_registrant",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/flutter/generated_plugin_registrant.cc",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "linux_flutter_generated_plugin_registrant_cc",
+      "target": "file_selector_plugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/flutter/generated_plugin_registrant.cc",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "linux_flutter_generated_plugin_registrant_cc",
+      "target": "url_launcher_plugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/flutter/generated_plugin_registrant.cc",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "linux_flutter_generated_plugin_registrant_cc",
+      "target": "flutter_generated_plugin_registrant_fl_register_plugins",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/flutter/generated_plugin_registrant.cc",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "linux_flutter_generated_plugin_registrant_h",
+      "target": "flutter_linux",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/flutter/generated_plugin_registrant.h",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_main_cc",
+      "target": "my_application",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/main.cc",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_main_cc",
+      "target": "runner_main_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/main.cc",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "my_application",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "flutter_linux",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "gdkx",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "generated_plugin_registrant",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "runner_my_application_first_frame_cb",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L18",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "runner_my_application_my_application_activate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L23",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "runner_my_application_my_application_local_command_line",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L82",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "runner_my_application_my_application_startup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L103",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "runner_my_application_my_application_shutdown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L112",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "runner_my_application_my_application_dispose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L121",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "runner_my_application_my_application_class_init",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L127",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "runner_my_application_my_application_init",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L136",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_cc",
+      "target": "runner_my_application_my_application_new",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L138",
+      "weight": 1
+    },
+    {
+      "source": "linux_runner_my_application_h",
+      "target": "gtk",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.h",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "windows_flutter_generated_plugin_registrant_cc",
+      "target": "generated_plugin_registrant",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/flutter/generated_plugin_registrant.cc",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "windows_flutter_generated_plugin_registrant_cc",
+      "target": "file_selector_windows",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/flutter/generated_plugin_registrant.cc",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "windows_flutter_generated_plugin_registrant_cc",
+      "target": "geolocator_windows",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/flutter/generated_plugin_registrant.cc",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "windows_flutter_generated_plugin_registrant_cc",
+      "target": "permission_handler_windows_plugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/flutter/generated_plugin_registrant.cc",
+      "source_location": "L11",
+      "weight": 1
+    },
+    {
+      "source": "windows_flutter_generated_plugin_registrant_cc",
+      "target": "share_plus_windows_plugin_c_api",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/flutter/generated_plugin_registrant.cc",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "windows_flutter_generated_plugin_registrant_cc",
+      "target": "url_launcher_windows",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/flutter/generated_plugin_registrant.cc",
+      "source_location": "L13",
+      "weight": 1
+    },
+    {
+      "source": "windows_flutter_generated_plugin_registrant_cc",
+      "target": "flutter_generated_plugin_registrant_registerplugins",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/flutter/generated_plugin_registrant.cc",
+      "source_location": "L15",
+      "weight": 1
+    },
+    {
+      "source": "windows_flutter_generated_plugin_registrant_h",
+      "target": "plugin_registry",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/flutter/generated_plugin_registrant.h",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "flutter_window",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "optional",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "generated_plugin_registrant",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "runner_flutter_window_flutterwindow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "runner_flutter_window_flutterwindow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "runner_flutter_window_oncreate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "runner_flutter_window_ondestroy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L42",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "runner_flutter_window_messagehandler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L50",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_h",
+      "target": "dart_project",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.h",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_h",
+      "target": "flutter_view_controller",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.h",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_h",
+      "target": "memory",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.h",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_h",
+      "target": "win32_window",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.h",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_flutter_window_h",
+      "target": "runner_flutter_window_flutterwindow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.h",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_main_cpp",
+      "target": "dart_project",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_main_cpp",
+      "target": "flutter_view_controller",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_main_cpp",
+      "target": "windows",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_main_cpp",
+      "target": "flutter_window",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_main_cpp",
+      "target": "utils",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_main_cpp",
+      "target": "runner_main_wwinmain",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_utils_cpp",
+      "target": "utils",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_utils_cpp",
+      "target": "flutter_windows",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_utils_cpp",
+      "target": "io",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_utils_cpp",
+      "target": "stdio",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_utils_cpp",
+      "target": "windows",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_utils_cpp",
+      "target": "iostream",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_utils_cpp",
+      "target": "runner_utils_createandattachconsole",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_utils_cpp",
+      "target": "runner_utils_getcommandlinearguments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L24",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_utils_cpp",
+      "target": "runner_utils_utf8fromutf16",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L44",
+      "weight": 1
+    },
+    {
+      "source": "runner_utils_getcommandlinearguments",
+      "target": "runner_utils_utf8fromutf16",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L36",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_utils_h",
+      "target": "string",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.h",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_utils_h",
+      "target": "vector",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.h",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "win32_window",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "dwmapi",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "flutter_windows",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "resource",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_scale",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L36",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_enablefulldpisupportifavailable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L42",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_windowclassregistrar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L59",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_windowclassregistrar",
+      "target": "runner_win32_window_windowclassregistrar_windowclassregistrar",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L61",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_windowclassregistrar",
+      "target": "runner_win32_window_windowclassregistrar_windowclassregistrar",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L80",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_getwindowclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L89",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_unregisterwindowclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L109",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_win32window",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L114",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_win32window",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L118",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_create",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L123",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_show",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L152",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_win32window_wndproc",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L157",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_messagehandler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L176",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_destroy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L224",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_getthisfromhandle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L236",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_setchildcontent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L241",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_getclientarea",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L252",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_gethandle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L258",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_setquitonclose",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L262",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_oncreate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L266",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_ondestroy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L271",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_updatetheme",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L275",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_win32window",
+      "target": "runner_win32_window_destroy",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L120",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_create",
+      "target": "runner_win32_window_destroy",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L126",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_create",
+      "target": "runner_win32_window_getwindowclass",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L129",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_create",
+      "target": "runner_win32_window_scale",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L139",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_create",
+      "target": "runner_win32_window_updatetheme",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L147",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_create",
+      "target": "runner_win32_window_oncreate",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L149",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_win32window_wndproc",
+      "target": "runner_win32_window_enablefulldpisupportifavailable",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L167",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_win32window_wndproc",
+      "target": "runner_win32_window_getthisfromhandle",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L169",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_win32window_wndproc",
+      "target": "runner_win32_window_messagehandler",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L170",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_messagehandler",
+      "target": "runner_win32_window_destroy",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L184",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_messagehandler",
+      "target": "runner_win32_window_getclientarea",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L201",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_messagehandler",
+      "target": "runner_win32_window_updatetheme",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L217",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_destroy",
+      "target": "runner_win32_window_ondestroy",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L225",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_destroy",
+      "target": "runner_win32_window_unregisterwindowclass",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L232",
+      "weight": 1
+    },
+    {
+      "source": "runner_win32_window_setchildcontent",
+      "target": "runner_win32_window_getclientarea",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L244",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_h",
+      "target": "windows",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.h",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_h",
+      "target": "functional",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.h",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_h",
+      "target": "memory",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.h",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "windows_runner_win32_window_h",
+      "target": "string",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.h",
+      "source_location": "L8",
+      "weight": 1
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "hyperedges": []
+}

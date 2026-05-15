@@ -1,0 +1,90 @@
+{
+  "D:\\Document\\daycast\\lib\\main.dart": {
+    "mtime": 1777268966414.43,
+    "hash": "d158dc7ae058a8679bf28b749c717ed5"
+  },
+  "D:\\Document\\daycast\\lib\\models\\note_model.dart": {
+    "mtime": 1778030724845.7847,
+    "hash": "36190076e3f8cdbfe1c0898ccfab0d16"
+  },
+  "D:\\Document\\daycast\\lib\\models\\weather_model.dart": {
+    "mtime": 1778759885770.059,
+    "hash": "595ff903d31ee675006275cabda08074"
+  },
+  "D:\\Document\\daycast\\lib\\screens\\calendar_screen.dart": {
+    "mtime": 1778090546376.6917,
+    "hash": "01eee4023fc83aab0a1c4badd14f4e05"
+  },
+  "D:\\Document\\daycast\\lib\\screens\\day_detail_screen.dart": {
+    "mtime": 1778090546439.2664,
+    "hash": "d9d7b215c90a41981e1f4c59a60ff084"
+  },
+  "D:\\Document\\daycast\\lib\\screens\\notes_screen.dart": {
+    "mtime": 1778343458781.3506,
+    "hash": "23e8e5246a268cf3961e0a88415f144f"
+  },
+  "D:\\Document\\daycast\\lib\\screens\\weather_map_screen.dart": {
+    "mtime": 1778794273264.9895,
+    "hash": "791adf4a7da4bc7b734c5ba9f19cb8c4"
+  },
+  "D:\\Document\\daycast\\lib\\screens\\weather_today_screen.dart": {
+    "mtime": 1778763070899.1333,
+    "hash": "b9dbd7489eb5037b84c38aed385ea4e8"
+  },
+  "D:\\Document\\daycast\\lib\\screens\\weather_today_screen_old.dart": {
+    "mtime": 1778756692571.6892,
+    "hash": "b1be4063b29856c579e7dabb6dc75f1b"
+  },
+  "D:\\Document\\daycast\\lib\\services\\app_state.dart": {
+    "mtime": 1778348030316.2974,
+    "hash": "c70b995c29a88a93771f605eca893ad5"
+  },
+  "D:\\Document\\daycast\\lib\\services\\note_service.dart": {
+    "mtime": 1778065121466.4067,
+    "hash": "b3ff218c96ddbf66debd3152f7d35633"
+  },
+  "D:\\Document\\daycast\\lib\\services\\notification_service.dart": {
+    "mtime": 1775675808000,
+    "hash": "7ae06e749140fe4507670ffd500dacbd"
+  },
+  "D:\\Document\\daycast\\lib\\services\\weather_service.dart": {
+    "mtime": 1778790816969.9543,
+    "hash": "ebceb8ac56a95e52895f3dcb426a27ea"
+  },
+  "D:\\Document\\daycast\\lib\\theme\\app_theme.dart": {
+    "mtime": 1776145613316.4175,
+    "hash": "b2e40f175b60b02c62f50fb1303b1419"
+  },
+  "D:\\Document\\daycast\\lib\\widgets\\search_sheet.dart": {
+    "mtime": 1776143923123.3252,
+    "hash": "7168dbb7002f88a5396bf85db2bbd6f2"
+  },
+  "D:\\Document\\daycast\\lib\\widgets\\weather_share_card.dart": {
+    "mtime": 1778760325412.342,
+    "hash": "b43a85cfe41bae9d2634b419ffef5033"
+  },
+  "D:\\Document\\daycast\\lib\\widgets\\weather_today\\forecast_strips.dart": {
+    "mtime": 1778759860025.413,
+    "hash": "412ef6814bd9decc7d794b1f22e0fb9c"
+  },
+  "D:\\Document\\daycast\\lib\\widgets\\weather_today\\moon_phase_tile.dart": {
+    "mtime": 1778759631131.3113,
+    "hash": "d4ca3fdbaa3cbec40f3d0269cbc9e3d5"
+  },
+  "D:\\Document\\daycast\\lib\\widgets\\weather_today\\weather_animated_background.dart": {
+    "mtime": 1778760120765.113,
+    "hash": "fadaede31726e30fee0ae6a1591f41ba"
+  },
+  "D:\\Document\\daycast\\lib\\widgets\\weather_today\\weather_particles.dart": {
+    "mtime": 1778760250931.8335,
+    "hash": "6a1a0a8e75ad54d901810389c14b667b"
+  },
+  "D:\\Document\\daycast\\lib\\widgets\\weather_today\\weather_stat_tiles.dart": {
+    "mtime": 1778759631131.3113,
+    "hash": "629d475d7197c182c7ba0de2fe3a878a"
+  },
+  "D:\\Document\\daycast\\lib\\README.md": {
+    "mtime": 1777270978141.879,
+    "hash": "b00b7365dff044bd8a0442cae58f6e92"
+  }
+}

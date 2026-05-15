@@ -1,0 +1,824 @@
+{
+  "communities": {
+    "0": [
+      "node_AOT_LIBRARY_VAR",
+      "node_CMAKE_BUILD_SYSTEM",
+      "node_COM_EXAMPLE_DAYCAST_APP_ID",
+      "node_DAYCAST_APPLICATION",
+      "node_DWMAPI_LIB",
+      "node_FAVICON_PNG",
+      "node_FLUTTER_ASSET_DIR_NAME_VAR",
+      "node_FLUTTER_BASE_HREF_PLACEHOLDER",
+      "node_FLUTTER_BOOTSTRAP_JS",
+      "node_FLUTTER_FRAMEWORK",
+      "node_FLUTTER_ICU_DATA_FILE_VAR",
+      "node_FLUTTER_LIBRARY_VAR",
+      "node_FLUTTER_WINDOW_CPP",
+      "node_GENERATED_CONFIG_CMAKE",
+      "node_GENERATED_PLUGIN_REGISTRANT_CC_LINUX",
+      "node_GENERATED_PLUGIN_REGISTRANT_CC_WINDOWS",
+      "node_GIO_LIBRARY",
+      "node_GLIB_LIBRARY",
+      "node_GTK_TOOLKIT",
+      "node_HTML_LANG",
+      "node_ICON_192_PNG",
+      "node_LINUX_CMAKELISTS_TXT",
+      "node_LINUX_FLUTTER_CMAKELISTS_TXT",
+      "node_LINUX_RUNNER_CMAKELISTS_TXT",
+      "node_MAIN_CC_LINUX",
+      "node_MAIN_CPP_WINDOWS",
+      "node_MANIFEST_JSON",
+      "node_MY_APPLICATION_CC_LINUX",
+      "node_NATIVE_ASSETS_DIR_VAR",
+      "node_PKGCONFIG_TOOL",
+      "node_PLUGIN_BUNDLED_LIBRARIES_VAR",
+      "node_README_MD",
+      "node_RUNNER_CMAKE_PROJECT",
+      "node_RUNNER_EXE_MANIFEST",
+      "node_RUNNER_RC",
+      "node_UTILS_CPP",
+      "node_WEB_INDEX_HTML",
+      "node_WIN32_WINDOW_CPP",
+      "node_WINDOWS_CMAKELISTS_TXT",
+      "node_WINDOWS_RUNNER_CMAKELISTS_TXT"
+    ],
+    "1": [
+      "node_APP_SO_WINDOWS",
+      "node_CORE_IMPLEMENTATIONS_CC",
+      "node_FLUTTER_ASSEMBLE_TARGET",
+      "node_FLUTTER_ENGINE_CC",
+      "node_FLUTTER_EXPORT_H",
+      "node_FLUTTER_LIBRARY_CONCEPT",
+      "node_FLUTTER_LINUX_H",
+      "node_FLUTTER_MESSENGER_H",
+      "node_FLUTTER_PLUGIN_REGISTRAR_H",
+      "node_FLUTTER_TEXTURE_REGISTRAR_H",
+      "node_FLUTTER_VIEW_CONTROLLER_CC",
+      "node_FLUTTER_WINDOWS_DLL",
+      "node_FLUTTER_WINDOWS_H",
+      "node_FLUTTER_WRAPPER_APP_LIB",
+      "node_FLUTTER_WRAPPER_PLUGIN_LIB",
+      "node_FL_BASIC_MESSAGE_CHANNEL_H",
+      "node_FL_BINARY_CODEC_H",
+      "node_FL_BINARY_MESSENGER_H",
+      "node_FL_DART_PROJECT_H",
+      "node_FL_ENGINE_H",
+      "node_FL_JSON_MESSAGE_CODEC_H",
+      "node_FL_JSON_METHOD_CODEC_H",
+      "node_FL_MESSAGE_CODEC_H",
+      "node_FL_METHOD_CALL_H",
+      "node_FL_METHOD_CHANNEL_H",
+      "node_FL_METHOD_CODEC_H",
+      "node_FL_METHOD_RESPONSE_H",
+      "node_FL_PLUGIN_REGISTRAR_H",
+      "node_FL_PLUGIN_REGISTRY_H",
+      "node_FL_STANDARD_MESSAGE_CODEC_H",
+      "node_FL_STANDARD_METHOD_CODEC_H",
+      "node_FL_STRING_CODEC_H",
+      "node_FL_VALUE_H",
+      "node_FL_VIEW_H",
+      "node_ICUDTL_DAT",
+      "node_LIBAPP_SO_LINUX",
+      "node_LIBFLUTTER_LINUX_GTK_SO",
+      "node_PLUGIN_REGISTRAR_CC",
+      "node_STANDARD_CODEC_CC",
+      "node_WINDOWS_FLUTTER_CMAKELISTS_TXT"
+    ],
+    "2": [
+      "node_AGENTS_MD",
+      "node_BASH_CMD_GRAPHIFY_DOT",
+      "node_BASH_SHELL",
+      "node_BRANCH_JSON",
+      "node_CMD_GIT_MV_GRAPHIFY_OUT",
+      "node_CMD_GIT_RM_CACHED",
+      "node_CMD_GIT_RM_R_CACHED",
+      "node_CMD_GRAPHIFY_MIGRATE_STATE",
+      "node_CMD_GRAPHIFY_PORTABLE_CHECK",
+      "node_CMD_GRAPHIFY_REVIEW_DELTA",
+      "node_CMD_GRAPHIFY_SUMMARY",
+      "node_CMD_GRAPHIFY_UPDATE_SKILL",
+      "node_CMD_NPX_GRAPHIFY_HOOK_REBUILD",
+      "node_CODEX_PLATFORM",
+      "node_CODEX_SKILL_GRAPHIFY",
+      "node_CODEX_SKILL_GRAPHIFY_UNRELIABLE",
+      "node_GEMINI_CLI",
+      "node_GEMINI_CLI_CUSTOM_CMD_GRAPHIFY",
+      "node_GEMINI_MD",
+      "node_GITIGNORE",
+      "node_GIT_VCS",
+      "node_GRAPHIFY_DIR",
+      "node_GRAPHIFY_MCP_SERVER",
+      "node_GRAPHIFY_OUT_GRAPH_JSON",
+      "node_GRAPHIFY_RUNTIME_JSON",
+      "node_GRAPHIFY_TOOL",
+      "node_GRAPH_JSON",
+      "node_GRAPH_REPORT_MD",
+      "node_MCP_FIRST_HOP_SUMMARY",
+      "node_MCP_REVIEW_DELTA",
+      "node_NEEDS_UPDATE_FLAG",
+      "node_RUNTIME_TYPESCRIPT",
+      "node_SEMANTIC_RESULTS",
+      "node_STALE_TRUE",
+      "node_TYPESCRIPT_LANG",
+      "node_WIKI_INDEX_MD"
+    ],
+    "3": [
+      "node_APP_ICON_PNG",
+      "node_DM_SANS_TYPEFACE",
+      "node_DYNAMIC_GRADIENT",
+      "node_FLUTTER_ANIMATE_PACKAGE",
+      "node_FLUTTER_LAUNCHER_ICONS_PACKAGE",
+      "node_FLUTTER_LINTS_PACKAGE",
+      "node_FLUTTER_LOCAL_NOTIFICATIONS_PACKAGE",
+      "node_FLUTTER_MAP_PACKAGE",
+      "node_FLUTTER_TEST_PACKAGE",
+      "node_GEOCODING_PACKAGE",
+      "node_GEOLOCATOR_PACKAGE",
+      "node_GLASSMORPHISM_CARDS",
+      "node_GOOGLE_FONTS_PACKAGE",
+      "node_HOME_WIDGET_PACKAGE",
+      "node_HTTP_PACKAGE",
+      "node_IMAGE_PICKER_PACKAGE",
+      "node_INDIGO_ACCENT_COLOR",
+      "node_INTL_PACKAGE",
+      "node_LATLONG2_PACKAGE",
+      "node_LIB_README_MD",
+      "node_NAVY_BG_COLOR",
+      "node_NAVY_BG_COLOR_HEX",
+      "node_NOTE_SERVICE_DART",
+      "node_PATH_PACKAGE",
+      "node_PATH_PROVIDER_PACKAGE",
+      "node_PERMISSION_HANDLER_PACKAGE",
+      "node_PUBSPEC_YAML",
+      "node_SHARED_PREFERENCES_PACKAGE",
+      "node_SHARE_PLUS_PACKAGE",
+      "node_TABLE_CALENDAR_PACKAGE",
+      "node_TIMEZONE_PACKAGE",
+      "node_USES_MATERIAL_DESIGN",
+      "node_UUID_PACKAGE",
+      "node_WEATHER_PLANNER_PROJECT"
+    ],
+    "4": [
+      "lib_services_app_state_dart",
+      "services_app_state_addlocation",
+      "services_app_state_appstate",
+      "services_app_state_datekey",
+      "services_app_state_deletenote",
+      "services_app_state_detectlocation",
+      "services_app_state_dispose",
+      "services_app_state_fetchweatherforslot",
+      "services_app_state_init",
+      "services_app_state_locationslot",
+      "services_app_state_refreshallweather",
+      "services_app_state_refreshifstale",
+      "services_app_state_refreshweather",
+      "services_app_state_removelocation",
+      "services_app_state_savenote",
+      "services_app_state_schedulemidnightrefresh",
+      "services_app_state_setdefaultcity",
+      "services_app_state_setlocation",
+      "services_app_state_setprimarylocation",
+      "services_app_state_switchtolocation",
+      "services_app_state_toggletempunit",
+      "services_app_state_toggletheme",
+      "services_app_state_updatewidget"
+    ],
+    "5": [
+      "runner_win32_window_create",
+      "runner_win32_window_destroy",
+      "runner_win32_window_enablefulldpisupportifavailable",
+      "runner_win32_window_getclientarea",
+      "runner_win32_window_gethandle",
+      "runner_win32_window_getthisfromhandle",
+      "runner_win32_window_getwindowclass",
+      "runner_win32_window_messagehandler",
+      "runner_win32_window_oncreate",
+      "runner_win32_window_ondestroy",
+      "runner_win32_window_scale",
+      "runner_win32_window_setchildcontent",
+      "runner_win32_window_setquitonclose",
+      "runner_win32_window_show",
+      "runner_win32_window_unregisterwindowclass",
+      "runner_win32_window_updatetheme",
+      "runner_win32_window_win32window",
+      "runner_win32_window_win32window_wndproc",
+      "runner_win32_window_windowclassregistrar",
+      "runner_win32_window_windowclassregistrar_windowclassregistrar",
+      "windows_runner_win32_window_cpp"
+    ],
+    "6": [
+      "node_APP_THEME_DART",
+      "node_CALENDAR_SCREEN_DART",
+      "node_CITY_SEARCH_BOTTOM_SHEET_CONCEPT",
+      "node_CURRENT_WEATHER_CONCEPT",
+      "node_DARK_MODE_CONCEPT",
+      "node_DAY_DETAIL_SCREEN_DART",
+      "node_DAY_NOTE_CONCEPT",
+      "node_DAY_WEATHER_CONCEPT",
+      "node_LIB_DIR",
+      "node_LIGHT_MODE_CONCEPT",
+      "node_MAIN_DART",
+      "node_MODELS_DIR",
+      "node_NOTE_CATEGORY_CONCEPT",
+      "node_NOTE_MODEL_DART",
+      "node_SCREENS_DIR",
+      "node_SEARCH_SHEET_DART",
+      "node_THEME_DIR",
+      "node_WEATHER_MODEL_DART",
+      "node_WEATHER_TODAY_SCREEN_DART",
+      "node_WIDGETS_DIR"
+    ],
+    "7": [
+      "lib_screens_weather_today_screen_old_dart",
+      "screens_weather_today_screen_old_didupdatewidget",
+      "screens_weather_today_screen_old_dispose",
+      "screens_weather_today_screen_old_doflash",
+      "screens_weather_today_screen_old_drawblob",
+      "screens_weather_today_screen_old_initstate",
+      "screens_weather_today_screen_old_lightbackground",
+      "screens_weather_today_screen_old_lightbackgroundstate",
+      "screens_weather_today_screen_old_paint",
+      "screens_weather_today_screen_old_particle",
+      "screens_weather_today_screen_old_scheduleflash",
+      "screens_weather_today_screen_old_shouldrepaint",
+      "screens_weather_today_screen_old_showfeelslikeinfo",
+      "screens_weather_today_screen_old_showsharedialog",
+      "screens_weather_today_screen_old_tick",
+      "screens_weather_today_screen_old_weatherparticles",
+      "screens_weather_today_screen_old_weatherparticlespainter",
+      "screens_weather_today_screen_old_weatherparticlesstate",
+      "screens_weather_today_screen_old_weathertodayscreen"
+    ],
+    "8": [
+      "node_APP_STATE_DART",
+      "node_CHANGENOTIFIER_CONCEPT",
+      "node_FEATURE_AUTO_LOCATION",
+      "node_FEATURE_BAD_WEATHER_ALERTS",
+      "node_FEATURE_CALENDAR",
+      "node_FEATURE_CITY_SEARCH",
+      "node_FEATURE_GOOD_WEATHER_HYPE",
+      "node_FEATURE_KEYWORD_DETECTION",
+      "node_FEATURE_NOTES",
+      "node_FEATURE_SMART_NOTIFICATIONS",
+      "node_FEATURE_UPCOMING_PLANS",
+      "node_FEATURE_WEATHER_BADGES",
+      "node_NOTIFICATION_SERVICE_DART",
+      "node_OPEN_METEO_API",
+      "node_OPEN_METEO_FORECAST_API_URL",
+      "node_OPEN_METEO_GEOCODING_API_URL",
+      "node_SERVICES_DIR",
+      "node_WEATHER_PLANNER_APP",
+      "node_WEATHER_SERVICE_DART"
+    ],
+    "9": [
+      "lib_services_note_service_dart",
+      "services_note_service_addsavedlocation",
+      "services_note_service_datekey",
+      "services_note_service_deletenote",
+      "services_note_service_getnotefordate",
+      "services_note_service_loadtempunit",
+      "services_note_service_loadtheme",
+      "services_note_service_marknotified",
+      "services_note_service_noteservice",
+      "services_note_service_persist",
+      "services_note_service_pruneoldnotified",
+      "services_note_service_removesavedlocation",
+      "services_note_service_savelocation",
+      "services_note_service_savenote",
+      "services_note_service_savetempunit",
+      "services_note_service_savetheme"
+    ],
+    "10": [
+      "lib_services_weather_service_dart",
+      "services_weather_service_airqualityresult",
+      "services_weather_service_asdouble",
+      "services_weather_service_asint",
+      "services_weather_service_buildnotificationmessage",
+      "services_weather_service_convert",
+      "services_weather_service_fetchairquality",
+      "services_weather_service_fetchradarandsatellitepaths",
+      "services_weather_service_fetchradarpath",
+      "services_weather_service_format",
+      "services_weather_service_formatdate",
+      "services_weather_service_haskeyword",
+      "services_weather_service_listvalue",
+      "services_weather_service_symbol",
+      "services_weather_service_tempunit",
+      "services_weather_service_weatherservice"
+    ],
+    "11": [
+      "lib_screens_calendar_screen_dart",
+      "screens_calendar_screen_calendarscreen",
+      "screens_calendar_screen_calendarscreenstate",
+      "screens_calendar_screen_confirmremovelocation",
+      "screens_calendar_screen_didchangeapplifecyclestate",
+      "screens_calendar_screen_dispose",
+      "screens_calendar_screen_function",
+      "screens_calendar_screen_initstate",
+      "screens_calendar_screen_locationsearchsheet",
+      "screens_calendar_screen_locationsearchsheetstate",
+      "screens_calendar_screen_ondayselected",
+      "screens_calendar_screen_onsearch",
+      "screens_calendar_screen_onselectresult",
+      "screens_calendar_screen_showsearchsheet"
+    ],
+    "12": [
+      "lib_widgets_weather_today_weather_particles_dart",
+      "weather_today_weather_particles_didupdatewidget",
+      "weather_today_weather_particles_dispose",
+      "weather_today_weather_particles_doflash",
+      "weather_today_weather_particles_drawblob",
+      "weather_today_weather_particles_initstate",
+      "weather_today_weather_particles_paint",
+      "weather_today_weather_particles_particle",
+      "weather_today_weather_particles_scheduleflash",
+      "weather_today_weather_particles_shouldrepaint",
+      "weather_today_weather_particles_tick",
+      "weather_today_weather_particles_weatherparticles",
+      "weather_today_weather_particles_weatherparticlespainter",
+      "weather_today_weather_particles_weatherparticlesstate"
+    ],
+    "13": [
+      "lib_screens_day_detail_screen_dart",
+      "screens_day_detail_screen_daydetailscreen",
+      "screens_day_detail_screen_daydetailscreenstate",
+      "screens_day_detail_screen_deleteimagefile",
+      "screens_day_detail_screen_deletenote",
+      "screens_day_detail_screen_dispose",
+      "screens_day_detail_screen_fullscreenimageviewer",
+      "screens_day_detail_screen_initstate",
+      "screens_day_detail_screen_openfullscreen",
+      "screens_day_detail_screen_pickimage",
+      "screens_day_detail_screen_savenote",
+      "screens_day_detail_screen_showimagesourcesheet",
+      "screens_day_detail_screen_timeago"
+    ],
+    "14": [
+      "lib_screens_weather_map_screen_dart",
+      "screens_weather_map_screen_getlayertitle",
+      "screens_weather_map_screen_getlegendhigh",
+      "screens_weather_map_screen_getlegendlow",
+      "screens_weather_map_screen_getnasaurl",
+      "screens_weather_map_screen_initstate",
+      "screens_weather_map_screen_loadmappaths",
+      "screens_weather_map_screen_movetocurrentlocation",
+      "screens_weather_map_screen_weathermapscreen",
+      "screens_weather_map_screen_weathermapscreenstate"
+    ],
+    "15": [
+      "linux_runner_my_application_cc",
+      "runner_my_application_first_frame_cb",
+      "runner_my_application_my_application_activate",
+      "runner_my_application_my_application_class_init",
+      "runner_my_application_my_application_dispose",
+      "runner_my_application_my_application_init",
+      "runner_my_application_my_application_local_command_line",
+      "runner_my_application_my_application_new",
+      "runner_my_application_my_application_shutdown",
+      "runner_my_application_my_application_startup"
+    ],
+    "16": [
+      "node_ANALYSIS_OPTIONS_YAML",
+      "node_DART_ANALYZER",
+      "node_DART_LANG",
+      "node_DOC_DART_ANALYSIS_OPTIONS",
+      "node_DOC_DART_IDES",
+      "node_DOC_DART_LINTS",
+      "node_FLUTTER_ANALYZE_CMD",
+      "node_FLUTTER_LINTS_YAML",
+      "node_LINT_AVOID_PRINT",
+      "node_LINT_PREFER_SINGLE_QUOTES"
+    ],
+    "17": [
+      "lib_services_notification_service_dart",
+      "services_notification_service_checkandnotify",
+      "services_notification_service_init",
+      "services_notification_service_notificationservice",
+      "services_notification_service_requestpermissions",
+      "services_notification_service_scheduledailycheck",
+      "services_notification_service_showweatheralert"
+    ],
+    "18": [
+      "lib_widgets_weather_today_weather_animated_background_dart",
+      "weather_today_weather_animated_background_didupdatewidget",
+      "weather_today_weather_animated_background_dispose",
+      "weather_today_weather_animated_background_initstate",
+      "weather_today_weather_animated_background_weatheranimatedbackground",
+      "weather_today_weather_animated_background_weatheranimatedbackgroundstate"
+    ],
+    "19": [
+      "runner_flutter_window_flutterwindow",
+      "runner_flutter_window_messagehandler",
+      "runner_flutter_window_oncreate",
+      "runner_flutter_window_ondestroy",
+      "windows_runner_flutter_window_cpp",
+      "windows_runner_flutter_window_h"
+    ],
+    "20": [
+      "lib_models_weather_model_dart",
+      "models_weather_model_currentweather",
+      "models_weather_model_dayweather",
+      "models_weather_model_hourlyweather",
+      "models_weather_model_moonphase"
+    ],
+    "21": [
+      "lib_screens_notes_screen_dart",
+      "screens_notes_screen_dispose",
+      "screens_notes_screen_notesscreen",
+      "screens_notes_screen_notesscreenstate",
+      "screens_notes_screen_timeago"
+    ],
+    "22": [
+      "lib_widgets_weather_today_weather_stat_tiles_dart",
+      "weather_today_weather_stat_tiles_aqitile",
+      "weather_today_weather_stat_tiles_pollentile",
+      "weather_today_weather_stat_tiles_pressuretile",
+      "weather_today_weather_stat_tiles_weatherstattile"
+    ],
+    "23": [
+      "ephemeral_flutter_lldb_helper_handle_new_rx_page",
+      "ephemeral_flutter_lldb_helper_lldb_init_module",
+      "ephemeral_flutter_lldb_helper_rationale_8",
+      "ios_flutter_ephemeral_flutter_lldb_helper_py"
+    ],
+    "24": [
+      "lib_screens_weather_today_screen_dart",
+      "screens_weather_today_screen_showfeelslikeinfo",
+      "screens_weather_today_screen_showsharedialog",
+      "screens_weather_today_screen_weathertodayscreen"
+    ],
+    "25": [
+      "lib_widgets_search_sheet_dart",
+      "widgets_search_sheet_onsearch",
+      "widgets_search_sheet_searchsheet",
+      "widgets_search_sheet_searchsheetstate"
+    ],
+    "26": [
+      "lib_widgets_weather_share_card_dart",
+      "widgets_weather_share_card_captureandshare",
+      "widgets_weather_share_card_shareutils",
+      "widgets_weather_share_card_weathersharecard"
+    ],
+    "27": [
+      "runner_utils_createandattachconsole",
+      "runner_utils_getcommandlinearguments",
+      "runner_utils_utf8fromutf16",
+      "windows_runner_utils_cpp"
+    ],
+    "28": [
+      "android_app_src_main_java_io_flutter_plugins_generatedpluginregistrant_java",
+      "plugins_generatedpluginregistrant_generatedpluginregistrant",
+      "plugins_generatedpluginregistrant_generatedpluginregistrant_registerwith"
+    ],
+    "29": [
+      "ios_runner_generatedpluginregistrant_m",
+      "runner_generatedpluginregistrant_generatedpluginregistrant",
+      "runner_generatedpluginregistrant_generatedpluginregistrant_registerwithregistry"
+    ],
+    "30": [
+      "lib_main_dart",
+      "lib_main_main",
+      "lib_main_weatherplannerapp"
+    ],
+    "31": [
+      "lib_widgets_weather_today_forecast_strips_dart",
+      "weather_today_forecast_strips_hourlyforecaststrip",
+      "weather_today_forecast_strips_weeklyforecaststrip"
+    ],
+    "32": [
+      "flutter_generated_plugin_registrant_fl_register_plugins",
+      "linux_flutter_generated_plugin_registrant_cc"
+    ],
+    "33": [
+      "flutter_generated_plugin_registrant_registerplugins",
+      "windows_flutter_generated_plugin_registrant_cc"
+    ],
+    "34": [
+      "lib_models_note_model_dart",
+      "models_note_model_daynote"
+    ],
+    "35": [
+      "lib_theme_app_theme_dart",
+      "theme_app_theme_appcolors"
+    ],
+    "36": [
+      "lib_widgets_weather_today_moon_phase_tile_dart",
+      "weather_today_moon_phase_tile_moonphasetile"
+    ],
+    "37": [
+      "linux_runner_main_cc",
+      "runner_main_main"
+    ],
+    "38": [
+      "runner_main_wwinmain",
+      "windows_runner_main_cpp"
+    ],
+    "39": [
+      "ios_runner_generatedpluginregistrant_h"
+    ],
+    "40": [
+      "ios_runner_runner_bridging_header_h"
+    ],
+    "41": [
+      "linux_flutter_generated_plugin_registrant_h"
+    ],
+    "42": [
+      "linux_runner_my_application_h"
+    ],
+    "43": [
+      "node_BUILD_BUNDLE_DIR_VAR"
+    ],
+    "44": [
+      "node_CMAKE_INSTALL_PREFIX_VAR"
+    ],
+    "45": [
+      "node_CPP_CLIENT_WRAPPER_DIR"
+    ],
+    "46": [
+      "node_EPHEMERAL_DIR_VAR"
+    ],
+    "47": [
+      "node_LINTER_CONFIG"
+    ],
+    "48": [
+      "windows_flutter_generated_plugin_registrant_h"
+    ],
+    "49": [
+      "windows_runner_resource_h"
+    ],
+    "50": [
+      "windows_runner_utils_h"
+    ],
+    "51": [
+      "windows_runner_win32_window_h"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07,
+    "1": 0.07,
+    "2": 0.11,
+    "3": 0.07,
+    "4": 0.09,
+    "5": 0.17,
+    "6": 0.1,
+    "7": 0.11,
+    "8": 0.11,
+    "9": 0.13,
+    "10": 0.13,
+    "11": 0.14,
+    "12": 0.14,
+    "13": 0.15,
+    "14": 0.2,
+    "15": 0.2,
+    "16": 0.2,
+    "17": 0.29,
+    "18": 0.33,
+    "19": 0.33,
+    "20": 0.4,
+    "21": 0.4,
+    "22": 0.4,
+    "23": 0.5,
+    "24": 0.5,
+    "25": 0.5,
+    "26": 0.5,
+    "27": 0.67,
+    "28": 0.67,
+    "29": 0.67,
+    "30": 0.67,
+    "31": 0.67,
+    "32": 1,
+    "33": 1,
+    "34": 1,
+    "35": 1,
+    "36": 1,
+    "37": 1,
+    "38": 1,
+    "39": 1,
+    "40": 1,
+    "41": 1,
+    "42": 1,
+    "43": 1,
+    "44": 1,
+    "45": 1,
+    "46": 1,
+    "47": 1,
+    "48": 1,
+    "49": 1,
+    "50": 1,
+    "51": 1
+  },
+  "gods": [
+    {
+      "id": "node_FLUTTER_ASSEMBLE_TARGET",
+      "label": "flutter_assemble (CMake Target)",
+      "edges": 39,
+      "degree": 39
+    },
+    {
+      "id": "node_WEATHER_PLANNER_PROJECT",
+      "label": "weather_planner (Project)",
+      "edges": 25,
+      "degree": 25
+    },
+    {
+      "id": "node_DAYCAST_APPLICATION",
+      "label": "daycast (Application)",
+      "edges": 23,
+      "degree": 23
+    },
+    {
+      "id": "node_LIB_README_MD",
+      "label": "lib/README.md",
+      "edges": 17,
+      "degree": 17
+    },
+    {
+      "id": "node_LINUX_CMAKELISTS_TXT",
+      "label": "linux/CMakeLists.txt",
+      "edges": 15,
+      "degree": 15
+    },
+    {
+      "id": "node_WEATHER_PLANNER_APP",
+      "label": "Weather Planner (Application)",
+      "edges": 14,
+      "degree": 14
+    },
+    {
+      "id": "node_WINDOWS_CMAKELISTS_TXT",
+      "label": "windows/CMakeLists.txt",
+      "edges": 11,
+      "degree": 11
+    },
+    {
+      "id": "node_FLUTTER_LIBRARY_CONCEPT",
+      "label": "flutter (CMake Library)",
+      "edges": 11,
+      "degree": 11
+    },
+    {
+      "id": "node_LINUX_FLUTTER_CMAKELISTS_TXT",
+      "label": "linux/flutter/CMakeLists.txt",
+      "edges": 8,
+      "degree": 8
+    },
+    {
+      "id": "node_WEB_INDEX_HTML",
+      "label": "web/index.html",
+      "edges": 8,
+      "degree": 8
+    }
+  ],
+  "surprises": [
+    {
+      "source": "windows/flutter/CMakeLists.txt",
+      "target": "generated_config.cmake",
+      "source_files": [
+        "windows/flutter/CMakeLists.txt",
+        "linux/flutter/CMakeLists.txt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "includes",
+      "why": "connects across different repos/directories; bridges separate communities; peripheral node `generated_config.cmake` unexpectedly reaches hub `windows/flutter/CMakeLists.txt`"
+    },
+    {
+      "source": "weather_planner (Project)",
+      "target": "daycast (Application)",
+      "source_files": [
+        "lib/README.md",
+        "linux/CMakeLists.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "builds_to_executable",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "weather_planner (Project)",
+      "target": "Flutter",
+      "source_files": [
+        "lib/README.md",
+        "analysis_options.yaml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "uses_sdk",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "weather_planner (Project)",
+      "target": "timezone (Package)",
+      "source_files": [
+        "lib/README.md",
+        "pubspec.yaml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "depends_on",
+      "why": "connects across different repos/directories; peripheral node `timezone (Package)` unexpectedly reaches hub `weather_planner (Project)`"
+    },
+    {
+      "source": "weather_planner (Project)",
+      "target": "image_picker (Package)",
+      "source_files": [
+        "lib/README.md",
+        "pubspec.yaml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "depends_on",
+      "why": "connects across different repos/directories; peripheral node `image_picker (Package)` unexpectedly reaches hub `weather_planner (Project)`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `weather_planner (Project)` connect `Community 3` to `Community 0`?",
+      "why": "High betweenness centrality (0.075) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `daycast (Application)` connect `Community 0` to `Community 1`, `Community 3`?",
+      "why": "High betweenness centrality (0.069) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `lib/README.md` connect `Community 3` to `Community 8`, `Community 6`?",
+      "why": "High betweenness centrality (0.052) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Intercept NOTIFY_DEBUGGER_ABOUT_RX_PAGES and touch the pages.`, `-registerWithRegistry`, `WeatherPlannerApp` to the rest of the system?",
+      "why": "159 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.11 - nodes in this community are weakly interconnected."
+    }
+  ],
+  "labels": {
+    "0": "Community 0",
+    "1": "Community 1",
+    "2": "Community 2",
+    "3": "Community 3",
+    "4": "Community 4",
+    "5": "Community 5",
+    "6": "Community 6",
+    "7": "Community 7",
+    "8": "Community 8",
+    "9": "Community 9",
+    "10": "Community 10",
+    "11": "Community 11",
+    "12": "Community 12",
+    "13": "Community 13",
+    "14": "Community 14",
+    "15": "Community 15",
+    "16": "Community 16",
+    "17": "Community 17",
+    "18": "Community 18",
+    "19": "Community 19",
+    "20": "Community 20",
+    "21": "Community 21",
+    "22": "Community 22",
+    "23": "Community 23",
+    "24": "Community 24",
+    "25": "Community 25",
+    "26": "Community 26",
+    "27": "Community 27",
+    "28": "Community 28",
+    "29": "Community 29",
+    "30": "Community 30",
+    "31": "Community 31",
+    "32": "Community 32",
+    "33": "Community 33",
+    "34": "Community 34",
+    "35": "Community 35",
+    "36": "Community 36",
+    "37": "Community 37",
+    "38": "Community 38",
+    "39": "Community 39",
+    "40": "Community 40",
+    "41": "Community 41",
+    "42": "Community 42",
+    "43": "Community 43",
+    "44": "Community 44",
+    "45": "Community 45",
+    "46": "Community 46",
+    "47": "Community 47",
+    "48": "Community 48",
+    "49": "Community 49",
+    "50": "Community 50",
+    "51": "Community 51"
+  },
+  "tokens": {
+    "input": 10000,
+    "output": 10000
+  }
+}

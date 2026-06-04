@@ -50,3 +50,7 @@ app.*.map.json
 .gemini/
 .graphify/
 .opencode/
+
+agents.md
+maestro/
+.maestro/

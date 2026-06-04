@@ -12,7 +12,9 @@ import '../models/note_model.dart';
 import 'day_detail_screen.dart';
 import 'weather_today_screen.dart';
 import 'notes_screen.dart';
-import '../services/weather_service.dart' show TempUnit, WeatherService;
+import '../services/weather_service.dart' show TempUnit;
+import '../widgets/location_search_sheet.dart';
+import '../widgets/settings_sheet.dart';
 
 class CalendarScreen extends StatefulWidget {
   final AppState state;
@@ -99,7 +101,7 @@ class _CalendarScreenState extends State<CalendarScreen>
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.fromLTRB(20, 16, 16, 4),
+          padding: const EdgeInsets.fromLTRB(20, 12, 16, 0), // Reduced vertical padding
           child: Row(
             children: [
               Text(
@@ -116,68 +118,12 @@ class _CalendarScreenState extends State<CalendarScreen>
                 ),
               ),
               const Spacer(),
-              ListenableBuilder(
-                listenable: state,
-                builder: (_, __) => IconButton(
-                  onPressed: () {
-                    HapticFeedback.selectionClick();
-                    state.toggleTheme();
-                  },
-                  tooltip: state.isDark
-                      ? 'Switch to light mode'
-                      : 'Switch to dark mode',
-                  icon: AnimatedSwitcher(
-                    duration: const Duration(milliseconds: 300),
-                    transitionBuilder: (child, anim) => RotationTransition(
-                      turns: Tween(begin: 0.75, end: 1.0).animate(anim),
-                      child: FadeTransition(opacity: anim, child: child),
-                    ),
-                    child: Icon(
-                      state.isDark
-                          ? Icons.light_mode_rounded
-                          : Icons.dark_mode_rounded,
-                      key: ValueKey(state.isDark),
-                      color: c.textSecondary,
-                    ),
-                  ),
-                ),
-              ),
-              ListenableBuilder(
-                listenable: state,
-                builder: (_, __) => GestureDetector(
-                  onTap: () {
-                    HapticFeedback.selectionClick();
-                    state.toggleTempUnit();
-                  },
-                  child: Container(
-                    padding:
-                        const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-                    margin: const EdgeInsets.only(right: 2),
-                    decoration: BoxDecoration(
-                      color: c.surfaceSubtle,
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(color: c.border),
-                    ),
-                    child: Text(
-                      state.useFahrenheit ? '°F' : '°C',
-                      style: GoogleFonts.dmSans(
-                        color: c.textSecondary,
-                        fontSize: 13,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-              ListenableBuilder(
-                listenable: state,
-                builder: (_, __) => IconButton(
-                  onPressed: () {
-                    HapticFeedback.lightImpact();
-                    _showSearchSheet();
-                  },
-                  icon: Icon(Icons.search_rounded, color: c.textSecondary),
-                ),
+              IconButton(
+                onPressed: () {
+                  HapticFeedback.lightImpact();
+                  _showSearchSheet();
+                },
+                icon: Icon(Icons.search_rounded, color: c.textSecondary),
               ),
               IconButton(
                 onPressed: () {
@@ -185,6 +131,16 @@ class _CalendarScreenState extends State<CalendarScreen>
                   state.refreshWeather();
                 },
                 icon: Icon(Icons.refresh_rounded, color: c.textSecondary),
+              ),
+              IconButton(
+                onPressed: () => SettingsSheet.show(context, state),
+                icon: Icon(Icons.settings_outlined, color: c.textSecondary),
+                style: IconButton.styleFrom(
+                  backgroundColor: c.textSecondary.withValues(alpha: 0.05),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
               ),
             ],
           ),
@@ -198,17 +154,17 @@ class _CalendarScreenState extends State<CalendarScreen>
                 padding: const EdgeInsets.fromLTRB(20, 0, 20, 8),
                 child: Text(
                   state.cityName.isNotEmpty
-                      ? '${state.cityName}, ${state.countryName}'
+                      ? '${state.cityName}${state.countryName.isNotEmpty ? ", ${state.countryName}" : ""}'
                       : 'Locating...',
                   style: GoogleFonts.dmSans(color: c.textMuted, fontSize: 13),
                 ),
               );
             }
             return SizedBox(
-              height: 32,
+              height: 40, // Increased height for better tap area
               child: ListView.separated(
                 scrollDirection: Axis.horizontal,
-                padding: const EdgeInsets.fromLTRB(20, 0, 20, 8),
+                padding: const EdgeInsets.fromLTRB(20, 4, 20, 12),
                 itemCount: state.locations.length,
                 separatorBuilder: (_, __) => const SizedBox(width: 6),
                 itemBuilder: (_, i) {
@@ -228,7 +184,7 @@ class _CalendarScreenState extends State<CalendarScreen>
                     child: AnimatedContainer(
                       duration: const Duration(milliseconds: 200),
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 10, vertical: 4),
+                          horizontal: 12, vertical: 4),
                       decoration: BoxDecoration(
                         color: active ? c.accentSurface : Colors.transparent,
                         borderRadius: BorderRadius.circular(20),
@@ -241,9 +197,9 @@ class _CalendarScreenState extends State<CalendarScreen>
                         children: [
                           if (i == 0)
                             Padding(
-                              padding: const EdgeInsets.only(right: 3),
+                              padding: const EdgeInsets.only(right: 4),
                               child: Icon(Icons.my_location_rounded,
-                                  size: 9,
+                                  size: 10,
                                   color:
                                       active ? AppColors.accent : c.textFaint),
                             ),
@@ -251,17 +207,17 @@ class _CalendarScreenState extends State<CalendarScreen>
                             loc.cityName,
                             style: GoogleFonts.dmSans(
                               color: active ? AppColors.accent : c.textFaint,
-                              fontSize: 11,
+                              fontSize: 12,
                               fontWeight:
                                   active ? FontWeight.w600 : FontWeight.w400,
                             ),
                           ),
                           if (loc.loading)
                             Padding(
-                              padding: const EdgeInsets.only(left: 4),
+                              padding: const EdgeInsets.only(left: 6),
                               child: SizedBox(
-                                width: 8,
-                                height: 8,
+                                width: 10,
+                                height: 10,
                                 child: CircularProgressIndicator(
                                     strokeWidth: 1.5, color: c.textFaint),
                               ),
@@ -304,6 +260,8 @@ class _CalendarScreenState extends State<CalendarScreen>
 
   /// Small legend explaining the green laundry highlight
   Widget _buildLaundryLegend(AppColors c) {
+    if (!state.isLaundryEnabled) return const SizedBox();
+    
     // Only show if any laundry day exists in forecast
     final hasLaundryDay = state.forecast.any((d) => d.isGoodLaundryDay);
     if (!hasLaundryDay) return const SizedBox();
@@ -316,7 +274,7 @@ class _CalendarScreenState extends State<CalendarScreen>
             width: 10,
             height: 10,
             decoration: BoxDecoration(
-              color: const Color(0xFF69F0AE).withOpacity(0.7),
+              color: const Color(0xFF69F0AE).withValues(alpha: 0.7),
               borderRadius: BorderRadius.circular(3),
             ),
           ),
@@ -330,6 +288,9 @@ class _CalendarScreenState extends State<CalendarScreen>
     );
   }
 
+  bool get _isCurrentMonth =>
+      _focusedDay.year == _today.year && _focusedDay.month == _today.month;
+
   Widget _buildCalendar(AppColors c) {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 16),
@@ -338,7 +299,10 @@ class _CalendarScreenState extends State<CalendarScreen>
         borderRadius: BorderRadius.circular(24),
         border: Border.all(color: c.border),
       ),
-      child: TableCalendar(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          TableCalendar(
         firstDay: DateTime.utc(2020, 1, 1),
         lastDay: DateTime.utc(2030, 12, 31),
         focusedDay: _focusedDay,
@@ -391,6 +355,35 @@ class _CalendarScreenState extends State<CalendarScreen>
           outsideBuilder: (ctx, day, _) => const SizedBox(),
         ),
       ),
+      if (!_isCurrentMonth)
+        Padding(
+          padding: const EdgeInsets.only(bottom: 6),
+          child: Center(
+              child: GestureDetector(
+                onTap: () => setState(() {
+                  _focusedDay = _today;
+                  _selectedDay = _today;
+                }),
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: AppColors.accent,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Text(
+                    'Today',
+                    style: GoogleFonts.dmSans(
+                      color: Colors.white,
+                      fontSize: 11,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+      ],
+      ),
     ).animate().fadeIn(duration: 500.ms).slideY(begin: 0.05);
   }
 
@@ -399,19 +392,20 @@ class _CalendarScreenState extends State<CalendarScreen>
     final weather = state.weatherForDate(day);
     final note = state.noteForDate(day);
     final isPast = day.isBefore(_today);
-    final isLaundryDay = weather != null && weather.isGoodLaundryDay && !isPast;
+    // FIX: Respect state.isLaundryEnabled
+    final isLaundryDay = state.isLaundryEnabled && weather != null && weather.isGoodLaundryDay && !isPast;
 
     // Laundry highlight color — soft green, dimmed for non-selected
     final laundryBg = isLaundryDay && !isSelected
         ? (c.isDark
-            ? const Color(0xFF69F0AE).withOpacity(0.12)
-            : const Color(0xFF2E7D32).withOpacity(0.08))
+            ? const Color(0xFF69F0AE).withValues(alpha: 0.12)
+            : const Color(0xFF2E7D32).withValues(alpha: 0.08))
         : Colors.transparent;
 
     final laundryBorder = isLaundryDay && !isSelected
         ? (c.isDark
-            ? const Color(0xFF69F0AE).withOpacity(0.30)
-            : const Color(0xFF2E7D32).withOpacity(0.25))
+            ? const Color(0xFF69F0AE).withValues(alpha: 0.30)
+            : const Color(0xFF2E7D32).withValues(alpha: 0.25))
         : Colors.transparent;
 
     return Container(
@@ -469,7 +463,7 @@ class _CalendarScreenState extends State<CalendarScreen>
               child: Icon(Icons.camera_alt_rounded,
                   size: 7,
                   color: isSelected
-                      ? Colors.white.withOpacity(0.8)
+                      ? Colors.white.withValues(alpha: 0.8)
                       : c.textUltraFaint),
             ),
         ],
@@ -519,7 +513,8 @@ class _CalendarScreenState extends State<CalendarScreen>
                   style: GoogleFonts.dmSans(color: c.textFaint, fontSize: 13),
                 ),
                 // Laundry badge on selected day preview
-                if (weather != null &&
+                if (state.isLaundryEnabled &&
+                    weather != null &&
                     weather.isGoodLaundryDay &&
                     !_selectedDay.isBefore(_today))
                   Container(
@@ -527,10 +522,10 @@ class _CalendarScreenState extends State<CalendarScreen>
                     padding:
                         const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
                     decoration: BoxDecoration(
-                      color: const Color(0xFF69F0AE).withOpacity(0.15),
+                      color: const Color(0xFF69F0AE).withValues(alpha: 0.15),
                       borderRadius: BorderRadius.circular(20),
                       border: Border.all(
-                          color: const Color(0xFF69F0AE).withOpacity(0.4)),
+                          color: const Color(0xFF69F0AE).withValues(alpha: 0.4)),
                     ),
                     child: Text(
                       '👕 Great laundry day',
@@ -804,14 +799,13 @@ class _CalendarScreenState extends State<CalendarScreen>
   // ── Search sheet — with add-location mode ─────────────
 
   void _showSearchSheet() {
-    final c = AppColors.of(context);
     final canAddMore = state.locations.length < 5;
 
     showModalBottomSheet(
       context: context,
       backgroundColor: Colors.transparent,
       isScrollControlled: true,
-      builder: (_) => _LocationSearchSheet(
+      builder: (_) => LocationSearchSheet(
         state: state,
         canAddLocation: canAddMore,
         onSetPrimary: (lat, lon, city, country) {
@@ -907,310 +901,6 @@ class _CalendarScreenState extends State<CalendarScreen>
             ),
           ],
         ),
-      ),
-    );
-  }
-}
-
-// ── Location Search Sheet ─────────────────────────────────────────────────────
-// Replaces SearchSheet — supports both "set primary" and "add location" modes.
-
-class _LocationSearchSheet extends StatefulWidget {
-  final AppState state;
-  final bool canAddLocation;
-  final void Function(double, double, String, String) onSetPrimary;
-  final void Function(double, double, String, String) onAddLocation;
-
-  const _LocationSearchSheet({
-    required this.state,
-    required this.canAddLocation,
-    required this.onSetPrimary,
-    required this.onAddLocation,
-  });
-
-  @override
-  State<_LocationSearchSheet> createState() => _LocationSearchSheetState();
-}
-
-class _LocationSearchSheetState extends State<_LocationSearchSheet> {
-  final TextEditingController _ctrl = TextEditingController();
-  final WeatherService _service = WeatherService();
-  List<Map<String, dynamic>> _results = [];
-  bool _searching = false;
-  // null = not chosen yet, true = add, false = set primary
-  bool? _addMode;
-
-  Future<void> _onSearch(String q) async {
-    if (q.trim().isEmpty) {
-      setState(() => _results = []);
-      return;
-    }
-    setState(() => _searching = true);
-    final results = await _service.searchCity(q);
-    setState(() {
-      _results = results;
-      _searching = false;
-    });
-  }
-
-  void _onSelectResult(Map<String, dynamic> r) {
-    final name = r['name'] ?? '';
-    final country = r['country'] ?? '';
-    final lat = (r['latitude'] as num).toDouble();
-    final lon = (r['longitude'] as num).toDouble();
-
-    final hasMultiple = widget.state.locations.length > 1;
-
-    if (!hasMultiple && !widget.canAddLocation) {
-      // Only one slot possible — just set primary
-      widget.onSetPrimary(lat, lon, name, country);
-      return;
-    }
-
-    if (!widget.canAddLocation) {
-      widget.onSetPrimary(lat, lon, name, country);
-      return;
-    }
-
-    // Ask user: set as primary or add as saved location
-    final c = AppColors.of(context);
-    showModalBottomSheet(
-      context: context,
-      backgroundColor: Colors.transparent,
-      builder: (_) => Container(
-        padding: const EdgeInsets.fromLTRB(20, 16, 20, 36),
-        decoration: BoxDecoration(
-          color: c.surfaceElevated,
-          borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Center(
-              child: Container(
-                width: 36,
-                height: 4,
-                margin: const EdgeInsets.only(bottom: 16),
-                decoration: BoxDecoration(
-                    color: c.textUltraFaint,
-                    borderRadius: BorderRadius.circular(2)),
-              ),
-            ),
-            Text('$name, $country',
-                style: GoogleFonts.dmSans(
-                    color: c.textPrimary,
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600)),
-            const SizedBox(height: 4),
-            Text('What would you like to do?',
-                style: GoogleFonts.dmSans(color: c.textFaint, fontSize: 13)),
-            const SizedBox(height: 16),
-            _actionTile(
-              icon: Icons.my_location_rounded,
-              title: 'Set as my location',
-              subtitle: 'Replaces your current primary location',
-              onTap: () {
-                HapticFeedback.selectionClick();
-                Navigator.pop(context);
-                widget.onSetPrimary(lat, lon, name, country);
-              },
-              c: c,
-            ),
-            const SizedBox(height: 10),
-            _actionTile(
-              icon: Icons.add_location_alt_rounded,
-              title: 'Add as saved location',
-              subtitle: 'View its forecast alongside your primary',
-              onTap: () {
-                HapticFeedback.selectionClick();
-                Navigator.pop(context);
-                widget.onAddLocation(lat, lon, name, country);
-              },
-              c: c,
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _actionTile({
-    required IconData icon,
-    required String title,
-    required String subtitle,
-    required VoidCallback onTap,
-    required AppColors c,
-  }) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        padding: const EdgeInsets.all(14),
-        decoration: BoxDecoration(
-          color: c.surfaceSubtle,
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: c.border),
-        ),
-        child: Row(
-          children: [
-            Container(
-              width: 38,
-              height: 38,
-              decoration: BoxDecoration(
-                color: c.accentSurface,
-                borderRadius: BorderRadius.circular(10),
-              ),
-              child: Icon(icon, color: AppColors.accent, size: 18),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(title,
-                      style: GoogleFonts.dmSans(
-                          color: c.textPrimary,
-                          fontSize: 14,
-                          fontWeight: FontWeight.w600)),
-                  Text(subtitle,
-                      style:
-                          GoogleFonts.dmSans(color: c.textFaint, fontSize: 12)),
-                ],
-              ),
-            ),
-            Icon(Icons.arrow_forward_ios_rounded,
-                size: 14, color: c.textUltraFaint),
-          ],
-        ),
-      ),
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final c = AppColors.of(context);
-    return Container(
-      height: MediaQuery.of(context).size.height * 0.75,
-      decoration: BoxDecoration(
-        color: c.surfaceElevated,
-        borderRadius: const BorderRadius.vertical(top: Radius.circular(28)),
-      ),
-      child: Column(
-        children: [
-          Container(
-            margin: const EdgeInsets.only(top: 12, bottom: 16),
-            width: 40,
-            height: 4,
-            decoration: BoxDecoration(
-              color: c.textUltraFaint,
-              borderRadius: BorderRadius.circular(2),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Row(
-              children: [
-                Text('Search City',
-                    style: GoogleFonts.dmSans(
-                        color: c.textPrimary,
-                        fontSize: 18,
-                        fontWeight: FontWeight.w600)),
-                const Spacer(),
-                if (widget.canAddLocation && widget.state.locations.length > 1)
-                  Container(
-                    padding:
-                        const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                    decoration: BoxDecoration(
-                      color: c.accentSurface,
-                      borderRadius: BorderRadius.circular(20),
-                      border: Border.all(color: c.accentBorder),
-                    ),
-                    child: Text(
-                      '${widget.state.locations.length}/5 locations',
-                      style: GoogleFonts.dmSans(
-                          color: AppColors.accent, fontSize: 11),
-                    ),
-                  ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 16),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Container(
-              decoration: BoxDecoration(
-                color: c.surfaceSubtle,
-                borderRadius: BorderRadius.circular(16),
-                border: Border.all(color: c.border),
-              ),
-              child: TextField(
-                controller: _ctrl,
-                autofocus: true,
-                style: GoogleFonts.dmSans(color: c.textPrimary),
-                decoration: InputDecoration(
-                  hintText: 'e.g. Tokyo, Paris, New York...',
-                  hintStyle:
-                      GoogleFonts.dmSans(color: c.textUltraFaint, fontSize: 14),
-                  border: InputBorder.none,
-                  contentPadding:
-                      const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-                  prefixIcon: _searching
-                      ? Padding(
-                          padding: const EdgeInsets.all(14),
-                          child: SizedBox(
-                            width: 16,
-                            height: 16,
-                            child: CircularProgressIndicator(
-                                strokeWidth: 2, color: c.textFaint),
-                          ),
-                        )
-                      : Icon(Icons.search_rounded, color: c.textFaint),
-                ),
-                onChanged: _onSearch,
-              ),
-            ),
-          ),
-          const SizedBox(height: 12),
-          Expanded(
-            child: _results.isEmpty
-                ? Center(
-                    child: Text(
-                      _ctrl.text.isEmpty
-                          ? 'Start typing to search'
-                          : 'No results found',
-                      style: GoogleFonts.dmSans(
-                          color: c.textUltraFaint, fontSize: 14),
-                    ),
-                  )
-                : ListView.separated(
-                    padding: const EdgeInsets.symmetric(horizontal: 20),
-                    itemCount: _results.length,
-                    separatorBuilder: (_, __) =>
-                        Divider(color: c.divider, height: 1),
-                    itemBuilder: (ctx, i) {
-                      final r = _results[i];
-                      final name = r['name'] ?? '';
-                      final admin = r['admin1'] ?? '';
-                      final country = r['country'] ?? '';
-                      return ListTile(
-                        contentPadding: EdgeInsets.zero,
-                        leading: const Icon(Icons.location_on_outlined,
-                            color: AppColors.accent, size: 20),
-                        title: Text(name,
-                            style: GoogleFonts.dmSans(
-                                color: c.textPrimary, fontSize: 15)),
-                        subtitle: Text('$admin, $country',
-                            style: GoogleFonts.dmSans(
-                                color: c.textFaint, fontSize: 12)),
-                        onTap: () {
-                          HapticFeedback.selectionClick();
-                          _onSelectResult(r);
-                        },
-                      );
-                    },
-                  ),
-          ),
-        ],
       ),
     );
   }

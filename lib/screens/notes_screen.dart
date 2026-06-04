@@ -5,7 +5,6 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import '../models/note_model.dart';
-import '../models/weather_model.dart';
 import '../services/app_state.dart';
 import '../theme/app_theme.dart';
 import 'day_detail_screen.dart';

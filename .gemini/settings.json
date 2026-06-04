@@ -6,8 +6,16 @@
         "serve",
         ".graphify/graph.json"
       ],
-      "trust": false,
+      "trust": true,
       "description": "graphify knowledge graph MCP server"
+    },
+    "filesystem": {
+      "command": "D:\\npm\\mcp-server-filesystem.cmd",
+      "args": [
+        "D:\\Document"
+      ],
+      "trust": true,
+      "description": "Filesystem read/write access"
     }
   }
 }

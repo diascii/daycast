@@ -128,11 +128,17 @@ class AqiTile extends StatelessWidget {
     final c = AppColors.of(context);
     
     final Color aqiColor;
-    if (aqi <= 50) aqiColor = const Color(0xFF69F0AE);
-    else if (aqi <= 100) aqiColor = Colors.yellow;
-    else if (aqi <= 150) aqiColor = Colors.orange;
-    else if (aqi <= 200) aqiColor = Colors.red;
-    else aqiColor = Colors.purple;
+    if (aqi <= 50) {
+      aqiColor = const Color(0xFF69F0AE);
+    } else if (aqi <= 100) {
+      aqiColor = Colors.yellow;
+    } else if (aqi <= 150) {
+      aqiColor = Colors.orange;
+    } else if (aqi <= 200) {
+      aqiColor = Colors.red;
+    } else {
+      aqiColor = Colors.purple;
+    }
 
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),

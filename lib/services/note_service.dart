@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../models/note_model.dart';
 
@@ -9,6 +10,10 @@ class NoteService {
   static const String _notifiedKey = 'weather_planner_notified';
   static const String _themeKey = 'weather_planner_dark_mode';
   static const String _tempUnitKey = 'weather_planner_fahrenheit';
+  static const String _laundryKey = 'weather_planner_laundry_enabled';
+  static const String _dailySummaryEnabledKey = 'weather_planner_daily_summary_enabled';
+  static const String _dailySummaryTimeKey = 'weather_planner_daily_summary_time';
+  static const String _widgetThemeKey = 'weather_planner_widget_theme';
 
   // ── Notes ──────────────────────────────────────────────
 
@@ -72,7 +77,6 @@ class NoteService {
 
   Future<void> addSavedLocation(double lat, double lon, String city, String country) async {
     final all = await loadSavedLocations();
-    // Avoid duplicates by city name
     all.removeWhere((l) => l['city'] == city && l['country'] == country);
     all.add({'lat': lat, 'lon': lon, 'city': city, 'country': country});
     final prefs = await SharedPreferences.getInstance();
@@ -93,7 +97,6 @@ class NoteService {
     await prefs.setBool(_themeKey, isDark);
   }
 
-  /// Returns true (dark) by default if never set
   Future<bool> loadTheme() async {
     final prefs = await SharedPreferences.getInstance();
     return prefs.getBool(_themeKey) ?? true;
@@ -106,10 +109,57 @@ class NoteService {
     await prefs.setBool(_tempUnitKey, useFahrenheit);
   }
 
-  /// Returns false (Celsius) by default if never set
   Future<bool> loadTempUnit() async {
     final prefs = await SharedPreferences.getInstance();
     return prefs.getBool(_tempUnitKey) ?? false;
+  }
+
+  // ── Laundry toggle ─────────────────────────────────────
+
+  Future<void> saveLaundryEnabled(bool enabled) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool(_laundryKey, enabled);
+  }
+
+  Future<bool> loadLaundryEnabled() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getBool(_laundryKey) ?? true;
+  }
+
+  // ── Daily Summary ──────────────────────────────────────
+
+  Future<void> saveDailySummaryEnabled(bool enabled) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool(_dailySummaryEnabledKey, enabled);
+  }
+
+  Future<bool> loadDailySummaryEnabled() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getBool(_dailySummaryEnabledKey) ?? false;
+  }
+
+  Future<void> saveDailySummaryTime(TimeOfDay time) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_dailySummaryTimeKey, '${time.hour}:${time.minute}');
+  }
+
+  Future<TimeOfDay> loadDailySummaryTime() async {
+    final prefs = await SharedPreferences.getInstance();
+    final raw = prefs.getString(_dailySummaryTimeKey) ?? '19:00';
+    final parts = raw.split(':');
+    return TimeOfDay(hour: int.parse(parts[0]), minute: int.parse(parts[1]));
+  }
+
+  // ── Widget Theme ────────────────────────────────────────
+
+  Future<void> saveWidgetTheme(int index) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setInt(_widgetThemeKey, index);
+  }
+
+  Future<int> loadWidgetTheme() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_widgetThemeKey) ?? 0;
   }
 
   // ── Notified tracking (avoid duplicate notifications) ──
@@ -129,7 +179,6 @@ class NoteService {
     }
   }
 
-  // Clean up old notified keys (older than 30 days)
   Future<void> pruneOldNotified() async {
     final prefs = await SharedPreferences.getInstance();
     final existing = prefs.getStringList(_notifiedKey) ?? [];

@@ -1,60 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:background="@drawable/widget_background">
+    android:orientation="vertical"
+    android:padding="16dp">
 
+    <!-- Top Row: Time left | Temp right -->
     <LinearLayout
-        android:id="@+id/weather_container"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextClock
+            android:id="@+id/widget_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:format12Hour="h:mm"
+            android:format24Hour="HH:mm"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#80000000"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="6"
+            android:textSize="44sp"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/widget_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--&#x00B0;"
+            android:textColor="#FFD666"
+            android:shadowColor="#80000000"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:textSize="44sp"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+    <!-- Second Row: Date left | Emoji+City right -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="2dp">
+
+        <TextClock
+            android:id="@+id/widget_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:format12Hour="EEEE, MMM d"
+            android:format24Hour="EEEE, MMM d"
+            android:textColor="#B3FFFFFF"
+            android:shadowColor="#80000000"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:textSize="11sp"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/widget_emoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#x2601;&#xFE0F;"
+            android:textSize="24sp"
+            android:shadowColor="#80000000"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="4" />
 
         <TextView
             android:id="@+id/widget_city"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
             android:text="City"
-            android:textColor="#FFFFFF"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical">
-
-            <TextView
-                android:id="@+id/widget_emoji"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="🌤️"
-                android:textSize="32sp" />
-
-            <TextView
-                android:id="@+id/widget_temp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:text="20°"
-                android:textColor="#FFFFFF"
-                android:textSize="32sp"
-                android:textStyle="normal" />
-        </LinearLayout>
+            android:textColor="#99FFFFFF"
+            android:shadowColor="#80000000"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif"
+            android:maxLines="1"
+            android:ellipsize="end" />
     </LinearLayout>
 
+    <!-- Note Section -->
     <TextView
         android:id="@+id/widget_note"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/weather_container"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
         android:text="No plans for today"
-        android:textColor="#B3FFFFFF"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#80000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="3"
         android:textSize="13sp"
-        android:maxLines="2"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="3dp"
+        android:maxLines="4"
         android:ellipsize="end" />
 
-</RelativeLayout>
+    <!-- Separator -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#15FFFFFF"
+        android:layout_marginTop="10dp" />
+
+    <!-- Forecast Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView android:id="@+id/widget_fc_0_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textColor="#80FFFFFF" android:textSize="9sp" android:fontFamily="sans-serif" android:gravity="center" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center">
+                <TextView android:id="@+id/widget_fc_0_emoji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="14sp" />
+                <TextView android:id="@+id/widget_fc_0_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp" android:text="" android:textColor="#CCFFFFFF" android:textSize="10sp" android:fontFamily="sans-serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView android:id="@+id/widget_fc_1_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textColor="#80FFFFFF" android:textSize="9sp" android:fontFamily="sans-serif" android:gravity="center" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center">
+                <TextView android:id="@+id/widget_fc_1_emoji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="14sp" />
+                <TextView android:id="@+id/widget_fc_1_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp" android:text="" android:textColor="#CCFFFFFF" android:textSize="10sp" android:fontFamily="sans-serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView android:id="@+id/widget_fc_2_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textColor="#80FFFFFF" android:textSize="9sp" android:fontFamily="sans-serif" android:gravity="center" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center">
+                <TextView android:id="@+id/widget_fc_2_emoji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="14sp" />
+                <TextView android:id="@+id/widget_fc_2_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp" android:text="" android:textColor="#CCFFFFFF" android:textSize="10sp" android:fontFamily="sans-serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView android:id="@+id/widget_fc_3_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textColor="#80FFFFFF" android:textSize="9sp" android:fontFamily="sans-serif" android:gravity="center" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center">
+                <TextView android:id="@+id/widget_fc_3_emoji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="14sp" />
+                <TextView android:id="@+id/widget_fc_3_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp" android:text="" android:textColor="#CCFFFFFF" android:textSize="10sp" android:fontFamily="sans-serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView android:id="@+id/widget_fc_4_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textColor="#80FFFFFF" android:textSize="9sp" android:fontFamily="sans-serif" android:gravity="center" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center">
+                <TextView android:id="@+id/widget_fc_4_emoji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="14sp" />
+                <TextView android:id="@+id/widget_fc_4_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp" android:text="" android:textColor="#CCFFFFFF" android:textSize="10sp" android:fontFamily="sans-serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView android:id="@+id/widget_fc_5_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textColor="#80FFFFFF" android:textSize="9sp" android:fontFamily="sans-serif" android:gravity="center" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center">
+                <TextView android:id="@+id/widget_fc_5_emoji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="14sp" />
+                <TextView android:id="@+id/widget_fc_5_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2dp" android:text="" android:textColor="#CCFFFFFF" android:textSize="10sp" android:fontFamily="sans-serif" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

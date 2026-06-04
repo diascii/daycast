@@ -1,5 +1,19 @@
 {
+  "$schema": "https://opencode.ai/config.json",
   "plugin": [
     ".opencode/plugins/graphify.js"
-  ]
+  ],
+  "lsp": true,
+  "mcp": {
+    "filesystem": {
+      "type": "local",
+      "command": ["D:\\npm\\mcp-server-filesystem.cmd", "D:\\Document"],
+      "enabled": true
+    },
+    "maestro": {
+      "type": "local",
+      "command": ["D:\\scoop\\apps\\maestro\\current\\bin\\maestro.bat", "mcp"],
+      "enabled": false
+    }
+  }
 }

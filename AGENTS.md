@@ -15,3 +15,8 @@ Rules:
 - Before deep graph traversal, prefer `graphify summary --graph .graphify/graph.json` for compact first-hop orientation
 - For review impact on changed files, use `graphify review-delta --graph .graphify/graph.json` instead of generic traversal
 - After modifying code files in this session, run `npx graphify hook-rebuild` to keep the graph current
+
+## Deploy
+
+- To build + install: `flutter build apk --split-per-abi` then `adb install -r build\app\outputs\flutter-apk\app-arm64-v8a-release.apk`
+- Widget XML layout must avoid: negative `letterSpacing`, negative `layout_marginTop`, `previewLayout` (breaks Xiaomi/HyperOS launchers)

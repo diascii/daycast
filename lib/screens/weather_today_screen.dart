@@ -294,7 +294,7 @@ class WeatherTodayScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Text(
-                      '${diff > 0 ? '+' : '-'}${absDiff}$unitSymbol',
+                      '${diff > 0 ? '+' : '-'}$absDiff$unitSymbol',
                       style: GoogleFonts.dmSans(
                           color: diff < 0 ? const Color(0xFF64b5f6) : Colors.orange,
                           fontSize: 13, fontWeight: FontWeight.w700),
@@ -321,7 +321,7 @@ class WeatherTodayScreen extends StatelessWidget {
               absDiff == 0
                   ? 'Right now they match — calm winds and moderate humidity mean the air temperature is a perfect reflection of how it feels outside.'
                   : diff < 0
-                      ? 'Right now it feels ${absDiff}$unitSymbol cooler than the actual temperature. This is likely due to wind chill — moving air carries heat away from your body faster, making it feel colder.'
+                      ? 'Right now it feels $absDiff$unitSymbol cooler than the actual temperature. This is likely due to wind chill — moving air carries heat away from your body faster, making it feel colder.'
                       : 'Right now it feels $absDiff$unitSymbol warmer than the actual temperature. High humidity is likely the cause — when air is humid, sweat evaporates more slowly, so your body can\'t cool itself as well.',
               style: GoogleFonts.dmSans(color: c.textMuted, fontSize: 13, height: 1.6),
             ),
@@ -398,7 +398,7 @@ class WeatherTodayScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(24),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.3),
+                    color: Colors.black.withValues(alpha: 0.3),
                     blurRadius: 20,
                     spreadRadius: 5,
                   ),

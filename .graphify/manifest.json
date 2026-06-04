@@ -1,47 +1,31 @@
 {
+  "D:\\Document\\daycast\\.opencode\\plugins\\graphify.js": {
+    "mtime": 1778839165465.8457,
+    "hash": "f9c882092e509e1544f17f27ea6a9c81"
+  },
   "D:\\Document\\daycast\\android\\app\\build.gradle.kts": {
     "mtime": 1775705142217.2654,
     "hash": "98fdba53441ba4c1f6f877a252e17963"
-  },
-  "D:\\Document\\daycast\\android\\app\\src\\main\\java\\io\\flutter\\plugins\\GeneratedPluginRegistrant.java": {
-    "mtime": 1778759606870.2236,
-    "hash": "69fcfe84dc9ccd797d4c718e5a8ebe46"
   },
   "D:\\Document\\daycast\\android\\app\\src\\main\\kotlin\\com\\example\\weather_note_app\\MainActivity.kt": {
     "mtime": 1778759483430.3486,
     "hash": "9f1fef3e16b3ee258ef49ef03d6435b5"
   },
   "D:\\Document\\daycast\\android\\app\\src\\main\\kotlin\\com\\example\\weather_note_app\\WeatherWidgetProvider.kt": {
-    "mtime": 1778347812673.1238,
-    "hash": "3b9f58f7c7f67c3df15c7a0efadf2d06"
+    "mtime": 1778953930102.939,
+    "hash": "2c7a1ee5d9d70366dc58e51607a3bb9b"
   },
   "D:\\Document\\daycast\\android\\build.gradle.kts": {
     "mtime": 1778758671262.5317,
     "hash": "803fe22651fbe96ed401eb0b66a492d1"
   },
-  "D:\\Document\\daycast\\android\\gradlew": {
-    "mtime": 1778758674879.657,
-    "hash": "7f1cd7eb3f75a1dc85cd37753972a6e2"
-  },
   "D:\\Document\\daycast\\android\\settings.gradle.kts": {
     "mtime": 1778758671730.619,
     "hash": "f276a44edd917afd836899357fdae60e"
   },
-  "D:\\Document\\daycast\\ios\\Flutter\\ephemeral\\flutter_lldb_helper.py": {
-    "mtime": 1778758704859.0168,
-    "hash": "98fc75412162af387e2e3461e4e58094"
-  },
   "D:\\Document\\daycast\\ios\\Runner\\AppDelegate.swift": {
     "mtime": 1770371169657.9404,
     "hash": "e277c49e98c9f80e9e71c0524a5cb60f"
-  },
-  "D:\\Document\\daycast\\ios\\Runner\\GeneratedPluginRegistrant.h": {
-    "mtime": 1778758705240.1353,
-    "hash": "decb9041b5e91a07e66f4664e5dac408"
-  },
-  "D:\\Document\\daycast\\ios\\Runner\\GeneratedPluginRegistrant.m": {
-    "mtime": 1778759606920.1985,
-    "hash": "0047272ce9d1a21c7721f5bed65f6f36"
   },
   "D:\\Document\\daycast\\ios\\Runner\\Runner-Bridging-Header.h": {
     "mtime": 1770371169674.4585,
@@ -52,56 +36,52 @@
     "hash": "24e5d095048eb86c30423f4e04b6e57b"
   },
   "D:\\Document\\daycast\\lib\\main.dart": {
-    "mtime": 1777268966414.43,
-    "hash": "d158dc7ae058a8679bf28b749c717ed5"
+    "mtime": 1778948916258.395,
+    "hash": "46f57f54b75b029b287d56201e578b4e"
   },
   "D:\\Document\\daycast\\lib\\models\\note_model.dart": {
     "mtime": 1778030724845.7847,
     "hash": "36190076e3f8cdbfe1c0898ccfab0d16"
   },
   "D:\\Document\\daycast\\lib\\models\\weather_model.dart": {
-    "mtime": 1778759885770.059,
-    "hash": "595ff903d31ee675006275cabda08074"
+    "mtime": 1778852876130.8694,
+    "hash": "a234321a2327c564cb72d4f55edd767a"
   },
   "D:\\Document\\daycast\\lib\\screens\\calendar_screen.dart": {
-    "mtime": 1778090546376.6917,
-    "hash": "01eee4023fc83aab0a1c4badd14f4e05"
+    "mtime": 1778958361610.1292,
+    "hash": "c9425052054a4d48151a18b71858c789"
   },
   "D:\\Document\\daycast\\lib\\screens\\day_detail_screen.dart": {
-    "mtime": 1778090546439.2664,
-    "hash": "d9d7b215c90a41981e1f4c59a60ff084"
+    "mtime": 1778852876132.8718,
+    "hash": "bb68339e73ed095d35a9089f1485e9eb"
   },
   "D:\\Document\\daycast\\lib\\screens\\notes_screen.dart": {
-    "mtime": 1778343458781.3506,
-    "hash": "23e8e5246a268cf3961e0a88415f144f"
+    "mtime": 1778852876132.8718,
+    "hash": "7347bf13af398cd820fa0bf2d0dce2ed"
   },
   "D:\\Document\\daycast\\lib\\screens\\weather_map_screen.dart": {
-    "mtime": 1778794273264.9895,
-    "hash": "791adf4a7da4bc7b734c5ba9f19cb8c4"
+    "mtime": 1778955419881.2136,
+    "hash": "293f87254b8d5fb267de52f88cf45b5d"
   },
   "D:\\Document\\daycast\\lib\\screens\\weather_today_screen.dart": {
-    "mtime": 1778763070899.1333,
-    "hash": "b9dbd7489eb5037b84c38aed385ea4e8"
-  },
-  "D:\\Document\\daycast\\lib\\screens\\weather_today_screen_old.dart": {
-    "mtime": 1778756692571.6892,
-    "hash": "b1be4063b29856c579e7dabb6dc75f1b"
+    "mtime": 1778948933998.694,
+    "hash": "17c6d66b30962084eee6f469826f50cb"
   },
   "D:\\Document\\daycast\\lib\\services\\app_state.dart": {
-    "mtime": 1778348030316.2974,
-    "hash": "c70b995c29a88a93771f605eca893ad5"
+    "mtime": 1778955070601.2786,
+    "hash": "c44d0546b508ea650bc7624d7babaa21"
   },
   "D:\\Document\\daycast\\lib\\services\\note_service.dart": {
-    "mtime": 1778065121466.4067,
-    "hash": "b3ff218c96ddbf66debd3152f7d35633"
+    "mtime": 1778953856286.1233,
+    "hash": "a9ba11e2e2f501a12a7caa4714863f13"
   },
   "D:\\Document\\daycast\\lib\\services\\notification_service.dart": {
-    "mtime": 1775675808000,
-    "hash": "7ae06e749140fe4507670ffd500dacbd"
+    "mtime": 1778852808173.4204,
+    "hash": "1b0717a94f15b7b3be2ab53919e9bbf1"
   },
   "D:\\Document\\daycast\\lib\\services\\weather_service.dart": {
-    "mtime": 1778790816969.9543,
-    "hash": "ebceb8ac56a95e52895f3dcb426a27ea"
+    "mtime": 1778841887838.0195,
+    "hash": "28a118e4ffd71b97335de7527ba34ffe"
   },
   "D:\\Document\\daycast\\lib\\theme\\app_theme.dart": {
     "mtime": 1776145613316.4175,
@@ -112,12 +92,12 @@
     "hash": "7168dbb7002f88a5396bf85db2bbd6f2"
   },
   "D:\\Document\\daycast\\lib\\widgets\\weather_share_card.dart": {
-    "mtime": 1778760325412.342,
-    "hash": "b43a85cfe41bae9d2634b419ffef5033"
+    "mtime": 1778948934647.7092,
+    "hash": "3bb0e6c7b69caa0d5c12ba8fa5acfda7"
   },
   "D:\\Document\\daycast\\lib\\widgets\\weather_today\\forecast_strips.dart": {
-    "mtime": 1778759860025.413,
-    "hash": "412ef6814bd9decc7d794b1f22e0fb9c"
+    "mtime": 1778856186005.1143,
+    "hash": "b7ecbd914bb796e4dee22d4b7a05f964"
   },
   "D:\\Document\\daycast\\lib\\widgets\\weather_today\\moon_phase_tile.dart": {
     "mtime": 1778759631131.3113,
@@ -128,12 +108,12 @@
     "hash": "fadaede31726e30fee0ae6a1591f41ba"
   },
   "D:\\Document\\daycast\\lib\\widgets\\weather_today\\weather_particles.dart": {
-    "mtime": 1778760250931.8335,
-    "hash": "6a1a0a8e75ad54d901810389c14b667b"
+    "mtime": 1778852876135.8723,
+    "hash": "fa3a93c6ebadbb9d4616875960c6eebe"
   },
   "D:\\Document\\daycast\\lib\\widgets\\weather_today\\weather_stat_tiles.dart": {
-    "mtime": 1778759631131.3113,
-    "hash": "629d475d7197c182c7ba0de2fe3a878a"
+    "mtime": 1778948919307.3286,
+    "hash": "1fe543e9124d128e04410e0d726c58db"
   },
   "D:\\Document\\daycast\\linux\\flutter\\generated_plugin_registrant.cc": {
     "mtime": 1778759606886.9106,
@@ -211,17 +191,29 @@
     "mtime": 1770371169707.9146,
     "hash": "7569387d58711ab975940f4df3b4bcda"
   },
-  "D:\\Document\\daycast\\AGENTS.md": {
-    "mtime": 1778838802928.4312,
-    "hash": "9e1907016867f7e4fb65232553f891b8"
+  "D:\\Document\\daycast\\.graphify\\GRAPH_REPORT.md": {
+    "mtime": 1778954695802.4858,
+    "hash": "a154a9e0b18bcae557feb67044e36ca9"
   },
-  "D:\\Document\\daycast\\analysis_options.yaml": {
-    "mtime": 1775699905810.6687,
-    "hash": "9e65f4b9beebb674c0dc252f70a5c177"
+  "D:\\Document\\daycast\\.graphify\\graph.html": {
+    "mtime": 1778840495679.2422,
+    "hash": "14c094012e40ec49ccff2619446d5992"
+  },
+  "D:\\Document\\daycast\\AGENTS.md": {
+    "mtime": 1778937138376.282,
+    "hash": "4869445a4180d2c66812e0726c776430"
   },
   "D:\\Document\\daycast\\GEMINI.md": {
     "mtime": 1778838802580.9126,
     "hash": "167cafb23ad9b15f0a3bb74e45e92313"
+  },
+  "D:\\Document\\daycast\\README.md": {
+    "mtime": 1778948755847.817,
+    "hash": "df60b54f3898f67540553b393fc393f2"
+  },
+  "D:\\Document\\daycast\\analysis_options.yaml": {
+    "mtime": 1775699905810.6687,
+    "hash": "9e65f4b9beebb674c0dc252f70a5c177"
   },
   "D:\\Document\\daycast\\lib\\README.md": {
     "mtime": 1777270978141.879,
@@ -240,12 +232,8 @@
     "hash": "30cc1614b16214b66c014af09ba699eb"
   },
   "D:\\Document\\daycast\\pubspec.yaml": {
-    "mtime": 1778762674804.8464,
-    "hash": "8d63a7c144271414ee1716f559fa33af"
-  },
-  "D:\\Document\\daycast\\README.md": {
-    "mtime": 1778758674080.056,
-    "hash": "a368ca3342712a7fb24fbaba24c84b7e"
+    "mtime": 1778852271788.5547,
+    "hash": "63d232a3c27e7f02fe20579fd987baf7"
   },
   "D:\\Document\\daycast\\web\\index.html": {
     "mtime": 1778758674264.4087,

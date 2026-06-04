@@ -1,12 +1,40 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:workmanager/workmanager.dart';
 import 'services/app_state.dart';
+import 'services/background_service.dart';
 import 'screens/calendar_screen.dart';
+
+@pragma('vm:entry-point')
+void callbackDispatcher() {
+  Workmanager().executeTask((task, inputData) async {
+    await BackgroundService.performWeatherCheck();
+    return true;
+  });
+}
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+  // Initialize Workmanager for background tasks
+  await Workmanager().initialize(
+    callbackDispatcher,
+  );
+
+  // Register periodic task (every 3 hours)
+  // Note: Android minimum frequency is 15 minutes.
+  await Workmanager().registerPeriodicTask(
+    "weather_check_task",
+    "weatherCheckTask",
+    frequency: const Duration(hours: 3),
+    existingWorkPolicy: ExistingPeriodicWorkPolicy.keep,
+    constraints: Constraints(
+      networkType: NetworkType.connected,
+    ),
+  );
+
   final appState = AppState();
+
   await appState.init();
 
   runApp(WeatherPlannerApp(state: appState));

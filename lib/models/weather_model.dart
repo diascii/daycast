@@ -293,7 +293,7 @@ class MoonPhase {
   static MoonPhase forDate(DateTime date) {
     // Known new moon reference: Jan 6, 2000
     final knownNewMoon = DateTime.utc(2000, 1, 6, 18, 14);
-    final synodicMonth = 29.53058867;
+    const synodicMonth = 29.53058867;
     final diff = date.toUtc().difference(knownNewMoon).inSeconds / 86400.0;
     final age = diff % synodicMonth;
     final illumination = (1 - cos(2 * pi * age / synodicMonth)) / 2;
@@ -329,7 +329,7 @@ class MoonPhase {
   /// Days until next full moon
   int get daysToFullMoon {
     const full = 14.765;
-    final synodicMonth = 29.53058867;
+    const synodicMonth = 29.53058867;
     double diff = full - age;
     if (diff < 0) diff += synodicMonth;
     return diff.round();

@@ -16,7 +16,6 @@ class WeatherMapScreen extends StatefulWidget {
 
 enum WeatherMapLayer {
   radar,
-  clouds,
   nightLights,
   snow,
   fires,
@@ -27,7 +26,6 @@ class _WeatherMapScreenState extends State<WeatherMapScreen> {
   final WeatherService _weatherService = WeatherService();
   final MapController _mapController = MapController();
   String? _radarPath;
-  String? _satellitePath;
   bool _loading = true;
   WeatherMapLayer _selectedLayer = WeatherMapLayer.radar;
 
@@ -42,7 +40,6 @@ class _WeatherMapScreenState extends State<WeatherMapScreen> {
     if (mounted) {
       setState(() {
         _radarPath = paths.radar;
-        _satellitePath = paths.satellite;
         _loading = false;
       });
     }
@@ -65,9 +62,6 @@ class _WeatherMapScreenState extends State<WeatherMapScreen> {
       case WeatherMapLayer.radar:
         if (_radarPath == null) return null;
         return 'https://tilecache.rainviewer.com$_radarPath/256/{z}/{x}/{y}/2/1_1.png';
-      case WeatherMapLayer.clouds:
-        // Switch to Infrared (Brightness Temp) for a better "Weather" look
-        return _getNASAUrl('MODIS_Terra_Brightness_Temp_Band31_Day', 'GoogleMapsCompatible_Level9');
       case WeatherMapLayer.nightLights:
         return _getNASAUrl('VIIRS_CityLights_2012', 'GoogleMapsCompatible_Level8', format: 'jpg');
       case WeatherMapLayer.snow:
@@ -84,7 +78,6 @@ class _WeatherMapScreenState extends State<WeatherMapScreen> {
   String _getLayerTitle() {
     switch (_selectedLayer) {
       case WeatherMapLayer.radar: return 'Precipitation';
-      case WeatherMapLayer.clouds: return 'Infrared Clouds';
       case WeatherMapLayer.nightLights: return 'City Lights';
       case WeatherMapLayer.snow: return 'Snow Cover';
       case WeatherMapLayer.fires: return 'Active Fires';
@@ -96,8 +89,6 @@ class _WeatherMapScreenState extends State<WeatherMapScreen> {
     switch (_selectedLayer) {
       case WeatherMapLayer.radar:
         return [const Color(0xFF82eefd), const Color(0xFF0000ff), const Color(0xFFffff00), const Color(0xFFff0000)];
-      case WeatherMapLayer.clouds:
-        return [Colors.blue.shade900, Colors.blue.shade100, Colors.white];
       case WeatherMapLayer.nightLights:
         return [Colors.black, Colors.yellow.shade200, Colors.white];
       case WeatherMapLayer.snow:
@@ -112,7 +103,6 @@ class _WeatherMapScreenState extends State<WeatherMapScreen> {
   String _getLegendLow() {
     switch (_selectedLayer) {
       case WeatherMapLayer.radar: return 'Light';
-      case WeatherMapLayer.clouds: return 'Warm';
       case WeatherMapLayer.nightLights: return 'Dark';
       case WeatherMapLayer.snow: return 'None';
       case WeatherMapLayer.fires: return 'Low';
@@ -123,7 +113,6 @@ class _WeatherMapScreenState extends State<WeatherMapScreen> {
   String _getLegendHigh() {
     switch (_selectedLayer) {
       case WeatherMapLayer.radar: return 'Heavy';
-      case WeatherMapLayer.clouds: return 'Cold (Storms)';
       case WeatherMapLayer.nightLights: return 'Bright';
       case WeatherMapLayer.snow: return 'Deep';
       case WeatherMapLayer.fires: return 'High';
@@ -180,7 +169,6 @@ class _WeatherMapScreenState extends State<WeatherMapScreen> {
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
               itemBuilder: (context) => [
                 const PopupMenuItem(value: WeatherMapLayer.radar, child: Text('Radar (Rain)')),
-                const PopupMenuItem(value: WeatherMapLayer.clouds, child: Text('Infrared Clouds')),
                 const PopupMenuItem(value: WeatherMapLayer.nightLights, child: Text('City Lights')),
                 const PopupMenuItem(value: WeatherMapLayer.snow, child: Text('Snow Tracker')),
                 const PopupMenuItem(value: WeatherMapLayer.fires, child: Text('Active Fires')),
@@ -229,23 +217,6 @@ class _WeatherMapScreenState extends State<WeatherMapScreen> {
                   tileDisplay: const TileDisplay.fadeIn(duration: Duration(milliseconds: 500)),
                   tileBuilder: (context, tileWidget, tile) {
                     final opacity = _selectedLayer == WeatherMapLayer.radar ? 1.0 : 0.7;
-                    
-                    // Special coloring for Infrared Clouds to make them look "Standard"
-                    if (_selectedLayer == WeatherMapLayer.clouds) {
-                      return Opacity(
-                        opacity: 0.6,
-                        child: ColorFiltered(
-                          colorFilter: const ColorFilter.matrix([
-                            0.5, 0.5, 0.5, 0, 0,
-                            0.5, 0.5, 0.5, 0, 0,
-                            0.5, 0.5, 0.5, 0, 0,
-                            0, 0, 0, 1, 0,
-                          ]),
-                          child: tileWidget,
-                        ),
-                      );
-                    }
-                    
                     return Opacity(
                       opacity: opacity,
                       child: tileWidget,

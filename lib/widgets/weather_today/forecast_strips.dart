@@ -19,7 +19,9 @@ class HourlyForecastStrip extends StatelessWidget {
     if (state.forecast.isEmpty) return const SizedBox();
     final now = DateTime.now();
     final allHourly = <HourlyWeather>[];
-    for (final day in state.forecast.take(4)) allHourly.addAll(day.hourly);
+    for (final day in state.forecast.take(4)) {
+      allHourly.addAll(day.hourly);
+    }
     if (allHourly.isEmpty) return const SizedBox();
 
     final lookback = now.subtract(const Duration(minutes: 5));
@@ -149,7 +151,7 @@ class WeeklyForecastStrip extends StatelessWidget {
                   Expanded(
                       child: Text(d.description,
                           style: GoogleFonts.dmSans(color: c.textFaint, fontSize: 13))),
-                  if (d.isGoodLaundryDay)
+                  if (state.isLaundryEnabled && d.isGoodLaundryDay)
                     const Padding(
                       padding: EdgeInsets.only(right: 8),
                       child: Text('👕', style: TextStyle(fontSize: 14)),

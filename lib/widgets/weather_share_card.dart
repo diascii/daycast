@@ -120,7 +120,7 @@ class WeatherShareCard extends StatelessWidget {
                             child: Text(
                               TempUnit.symbol(useFahrenheit),
                               style: GoogleFonts.dmSans(
-                                color: Colors.white.withOpacity(0.6),
+                                color: Colors.white.withValues(alpha: 0.6),
                                 fontSize: 32,
                                 fontWeight: FontWeight.w300,
                               ),
@@ -131,7 +131,7 @@ class WeatherShareCard extends StatelessWidget {
                       Text(
                         weather.description.toUpperCase(),
                         style: GoogleFonts.dmSans(
-                          color: Colors.white.withOpacity(0.9),
+                          color: Colors.white.withValues(alpha: 0.9),
                           fontSize: 18,
                           fontWeight: FontWeight.w600,
                           letterSpacing: 2,
@@ -145,9 +145,9 @@ class WeatherShareCard extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.12),
+                      color: Colors.white.withValues(alpha: 0.12),
                       borderRadius: BorderRadius.circular(20),
-                      border: Border.all(color: Colors.white.withOpacity(0.1)),
+                      border: Border.all(color: Colors.white.withValues(alpha: 0.1)),
                     ),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -159,7 +159,7 @@ class WeatherShareCard extends StatelessWidget {
                             Text(
                               note!.category.label.toUpperCase(),
                               style: GoogleFonts.dmSans(
-                                color: Colors.white.withOpacity(0.6),
+                                color: Colors.white.withValues(alpha: 0.6),
                                 fontSize: 11,
                                 fontWeight: FontWeight.w800,
                                 letterSpacing: 1,
@@ -190,13 +190,13 @@ class WeatherShareCard extends StatelessWidget {
                       Container(
                         width: 40,
                         height: 2,
-                        color: Colors.white.withOpacity(0.2),
+                        color: Colors.white.withValues(alpha: 0.2),
                       ),
                       const SizedBox(height: 12),
                       Text(
                         'DAYCAST WEATHER PLANNER',
                         style: GoogleFonts.dmSans(
-                          color: Colors.white.withOpacity(0.4),
+                          color: Colors.white.withValues(alpha: 0.4),
                           fontSize: 10,
                           fontWeight: FontWeight.w700,
                           letterSpacing: 1.5,

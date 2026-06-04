@@ -4,13 +4,12 @@ import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
-import 'package:uuid/uuid.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:path/path.dart' as p;
+import 'package:uuid/uuid.dart';
 import '../models/note_model.dart';
 import '../models/weather_model.dart';
 import '../services/app_state.dart';
+import '../services/note_image_service.dart';
 import '../theme/app_theme.dart';
 
 class DayDetailScreen extends StatefulWidget {
@@ -24,6 +23,7 @@ class DayDetailScreen extends StatefulWidget {
 }
 
 class _DayDetailScreenState extends State<DayDetailScreen> {
+  final NoteImageService _imageService = NoteImageService();
   late TextEditingController _noteController;
   NoteCategory _selectedCategory = NoteCategory.plan;
   bool _editing = false;
@@ -74,27 +74,11 @@ class _DayDetailScreenState extends State<DayDetailScreen> {
   // ── Image picking ─────────────────────────────────────────────────────────
 
   Future<void> _pickImage(ImageSource source) async {
-    final picker = ImagePicker();
-    final picked = await picker.pickImage(
-      source: source,
-      imageQuality: 85,
-      maxWidth: 1920,
-    );
-    if (picked == null) return;
-
-    // Copy into app documents directory so it persists across cache clears
-    final appDir = await getApplicationDocumentsDirectory();
-    final imagesDir = Directory(p.join(appDir.path, 'note_images'));
-    if (!await imagesDir.exists()) await imagesDir.create(recursive: true);
-
-    final ext =
-        p.extension(picked.path).isNotEmpty ? p.extension(picked.path) : '.jpg';
-    final fileName = '${const Uuid().v4()}$ext';
-    final dest = File(p.join(imagesDir.path, fileName));
-    await File(picked.path).copy(dest.path);
+    final persistedPath = await _imageService.pickAndPersist(source);
+    if (persistedPath == null) return;
 
     setState(() {
-      _pendingImagePath = dest.path;
+      _pendingImagePath = persistedPath;
       _clearImage = false;
     });
   }
@@ -203,7 +187,7 @@ class _DayDetailScreenState extends State<DayDetailScreen> {
 
     // If user cleared the image, delete the old file
     if (_clearImage && existing?.imagePath != null) {
-      _deleteImageFile(existing!.imagePath!);
+      await _imageService.deleteIfPresent(existing!.imagePath);
     }
 
     final note = DayNote(
@@ -270,7 +254,7 @@ class _DayDetailScreenState extends State<DayDetailScreen> {
     if (confirm == true) {
       HapticFeedback.mediumImpact();
       if (existingNote?.imagePath != null) {
-        _deleteImageFile(existingNote!.imagePath!);
+        await _imageService.deleteIfPresent(existingNote!.imagePath);
       }
       await state.deleteNote(date);
       _noteController.clear();
@@ -281,73 +265,76 @@ class _DayDetailScreenState extends State<DayDetailScreen> {
     }
   }
 
-  void _deleteImageFile(String path) {
-    try {
-      final f = File(path);
-      if (f.existsSync()) f.deleteSync();
-    } catch (_) {}
-  }
-
   // ── Background gradient ───────────────────────────────────────────────────
 
   LinearGradient _bgGradient(bool isDark) {
     final code = weather?.weatherCode;
     if (isDark) {
-      if (code == null)
+      if (code == null) {
         return const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Color(0xFF0d0d14), Color(0xFF16162a)]);
-      if (code == 0 || code == 1)
+      }
+      if (code == 0 || code == 1) {
         return const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Color(0xFF0d1b3e), Color(0xFF0d0d14)]);
-      if (code >= 61 && code <= 82)
+      }
+      if (code >= 61 && code <= 82) {
         return const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Color(0xFF0d1b2a), Color(0xFF0d0d14)]);
-      if (code >= 71 && code <= 77)
+      }
+      if (code >= 71 && code <= 77) {
         return const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Color(0xFF1a2030), Color(0xFF0d0d14)]);
-      if (code >= 95)
+      }
+      if (code >= 95) {
         return const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Color(0xFF1a0d2e), Color(0xFF0d0d14)]);
+      }
       return const LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [Color(0xFF16162a), Color(0xFF0d0d14)]);
     } else {
-      if (code == null)
+      if (code == null) {
         return const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Color(0xFFf0f2f8), Color(0xFFe8ecf4)]);
-      if (code == 0 || code == 1)
+      }
+      if (code == 0 || code == 1) {
         return const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Color(0xFFd8eeff), Color(0xFFf0f2f8)]);
-      if (code >= 61 && code <= 82)
+      }
+      if (code >= 61 && code <= 82) {
         return const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Color(0xFFcfdaea), Color(0xFFf0f2f8)]);
-      if (code >= 71 && code <= 77)
+      }
+      if (code >= 71 && code <= 77) {
         return const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Color(0xFFdde4f4), Color(0xFFf0f2f8)]);
-      if (code >= 95)
+      }
+      if (code >= 95) {
         return const LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [Color(0xFFd0d4e8), Color(0xFFf0f2f8)]);
+      }
       return const LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
